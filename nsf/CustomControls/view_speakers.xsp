@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.resources>
+		<xp:script src="/xpSpeakers.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<a class="brand" href="#">Speakers</a>
+			<ul class="nav">
+				<xp:panel tagName="li">
+					<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == ""){
+	return "active";
+}}]]></xp:this.styleClass>
+					<xp:link escape="true" text="All" id="allspeakers"
+						value="/speakers.xsp">
+					</xp:link>
+				</xp:panel>
+				<xp:repeat id="tracks" var="trackname" indexVar="trackindex"
+					disableOutputTag="true">
+					<xp:this.value><![CDATA[#{javascript:controlpanelBean.getTracks()}]]></xp:this.value>
+					<xp:panel tagName="li">
+						<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == trackname){
+	return "active";
+}}]]></xp:this.styleClass>
+						<xp:link escape="true" text="#{javascript:trackname}" id="link11"
+							value="/speakers.xsp">
+							<xp:this.parameters>
+								<xp:parameter name="filter" value="#{javascript:trackname}">
+								</xp:parameter>
+							</xp:this.parameters>
+						</xp:link>
+					</xp:panel>
+				</xp:repeat>
+			</ul>
+		</div>
+	</div>
+
+	<div id="container" class="clearfix fluid">
+		<div id="bricks" class="thumbnails" style="margin-top: 10px;">
+			<xp:repeat id="speakers" var="presentername"
+				indexVar="presenternameindex" disableOutputTag="true" rows="999">
+				<xp:this.value><![CDATA[#{javascript:var filter = context.getUrlParameter("filter");
+var out;
+if (filter == ""){
+	out = @Unique(@DbColumn(@DbName(), "Sessions By Presenter", 1));
+}else{
+	out = @Unique(@DbLookup(@DbName(), "Sessions By Presenter By Track", filter, 2));
+}
+if (out == ""){
+	return null;
+}else{
+	return out;
+}}]]></xp:this.value>
+				<div class="thumbnail">
+					<xp:text id="speakername" tagName="h3"
+						value="#{javascript:presentername}">
+					</xp:text>
+					<xp:panel>
+						<xp:this.data>
+							<xp:dominoView var="view1"
+								viewName="Sessions By Presenter"
+								keys="#{javascript:presentername}">
+							</xp:dominoView>
+						</xp:this.data>
+						<xp:repeat id="sessions" var="sessiondoc"
+							indexVar="sessiondocindex" value="#{view1}"
+							disableOutputTag="true">
+							<xp:panel
+								rendered="#{javascript:sessiondocindex == 0}">
+								<div style="height: 80px;">
+									<xp:image
+										url="#{javascript:getPresenterPhoto(sessiondoc.getDocument(), presentername)}"
+										id="image1" styleClass="img-rounded speakerphoto">
+									</xp:image>
+								</div>
+								<xp:panel tagName="h4" id="biotitle">
+									Bio
+								</xp:panel>
+								<xp:text id="bio" tagName="p" escape="false">
+									<xp:this.value><![CDATA[#{javascript:var speakerbio = @Subset(@DbLookup(@DbName(), "Speaker Bios", presentername, 2), 1);
+if(@IsError(speakerbio)){
+	speakerbio = @Subset(@DbLookup(@DbName(), "Speaker2 Bios", presentername, 2), 1);
+	if(@IsError(speakerbio)){
+		return "";
+	}else{
+		return speakerbio;
+	}
+}else{
+	return speakerbio;
+}
+/*
+if (presentername == sessiondoc.getColumnValue("Presenter")){
+	print("Bio for " + presentername + " = " + sessiondoc.getColumnValue("Bio"));
+	return sessiondoc.getColumnValue("Bio");
+}else if (presentername == sessiondoc.getColumnValue("Presenter2")){
+	print("Bio for second presenter " + presentername + " = " + sessiondoc.getColumnValue("Bio"));
+	return sessiondoc.getColumnValue("Bio2");
+}
+*/}]]></xp:this.value>
+								</xp:text>
+								<h4>Sessions</h4>
+							</xp:panel>
+							<xp:panel id="sessiontitle" tagName="div">
+								<xp:link>
+									<xp:this.text><![CDATA[#{javascript:sessiondoc.getColumnValue("Title")}]]></xp:this.text>
+									<xp:this.value><![CDATA[#{javascript:getDbPath() + "/session.xsp?action=openDocument&documentId=" + sessiondoc.getColumnValue("UNID");}]]></xp:this.value>
+								</xp:link>
+							</xp:panel>
+						</xp:repeat>
+					</xp:panel>
+				</div>
+			</xp:repeat>
+		</div>
+	</div>
+</xp:view>

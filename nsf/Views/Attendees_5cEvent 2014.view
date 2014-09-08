@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='80257D4D0025B178'>
+<noteinfo noteid='1126' unid='2EEA9CE74C08C3B180257CCB0047AE1C' sequence='5'>
+<created><datetime dst='true'>20140501T140256,28+01</datetime></created>
+<modified><datetime dst='true'>20140908T075556,79+01</datetime></modified>
+<revised><datetime dst='true'>20140908T075556,78+01</datetime></revised>
+<lastaccessed><datetime dst='true'>20140908T075556,79+01</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140908T075216,24+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Tim Clark/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<item name='$FormatNote' summary='true'>
+<rawitemdata type='4'>
+AQBhukiafKvCWOfQTACZeiWA
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>Attendees\Event 2014</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+pgACAAwAAgAkM2kAAwAFAEoARgAIAAgACQAFAAYAAgAHAAkABABMYXN0TmFtZUZpcnN0TmFtZUVt
+YWlsRXZlbnRzJDNDb21wYW55JENvbmZsaWN0JFJFRgQABAAAADgABQAEAEZvcm0BAAgAQXR0ZW5k
+ZWUKAgQABAAFAAYARXZlbnRzAQAEADIwMTRHAgQAHAIDAAcAEgAMAAkzUzRTN1M4UzEzUw==
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+JQACAABEgGYAAAAIAABmAAgACQBMYXN0TmFtZUZpcnN0TmFtZQ==
+</rawitemdata></item>
+<item name='$Collation1' summary='true'>
+<rawitemdata type='2'>
+FQABAABEgGYAAAAIAExhc3ROYW1l
+</rawitemdata></item>
+<item name='$Collation2' summary='true'>
+<rawitemdata type='2'>
+FQABAABEgWYAAAAIAExhc3ROYW1l
+</rawitemdata></item>
+<item name='$Collation3' summary='true'>
+<rawitemdata type='2'>
+FgABAABEAGYAAAAJAEZpcnN0TmFtZQ==
+</rawitemdata></item>
+<item name='$Collation4' summary='true'>
+<rawitemdata type='2'>
+FgABAABEAWYAAAAJAEZpcnN0TmFtZQ==
+</rawitemdata></item>
+<item name='$Collation5' summary='true'>
+<rawitemdata type='2'>
+EgABAABEgGYAAAAFAEVtYWls
+</rawitemdata></item>
+<item name='$Collation6' summary='true'>
+<rawitemdata type='2'>
+EgABAABEgWYAAAAFAEVtYWls
+</rawitemdata></item>
+<item name='$Collation7' summary='true'>
+<rawitemdata type='2'>
+EwABAABEgGYAAAAGAEV2ZW50cw==
+</rawitemdata></item>
+<item name='$Collation8' summary='true'>
+<rawitemdata type='2'>
+EwABAABEgWYAAAAGAEV2ZW50cw==
+</rawitemdata></item>
+<item name='$Collation9' summary='true'>
+<rawitemdata type='2'>
+DwABAABEgGYAAAACACQz
+</rawitemdata></item>
+<item name='$Collation10' summary='true'>
+<rawitemdata type='2'>
+DwABAABEgWYAAAACACQz
+</rawitemdata></item>
+<item name='$Collation11' summary='true'>
+<rawitemdata type='2'>
+FAABAABEgGYAAAAHAENvbXBhbnk=
+</rawitemdata></item>
+<item name='$Collation12' summary='true'>
+<rawitemdata type='2'>
+FAABAABEgWYAAAAHAENvbXBhbnk=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAGAAYACAAAAFZDAQMIAAgAAAAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMBAwkACQAAAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwADBQAFAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAMGAAYA
+AAAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMAAwIACwAOAAAAUAABAAAKAAAAAAAAAAAAAgIAAABW
+QwADBwAHAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAExhc3ROYW1lTGFzdE5hbWVGaXJzdE5hbWVG
+aXJzdE5hbWVFbWFpbEVNYWlsRXZlbnRzRXZlbnRzJDNEYXRlQ3JlYXRlZA4AAgAMAAIAJDNpAAMA
+Q29tcGFueUNvbXBhbnkmAAEAAAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAAAAAAAAAAAFdDAQEA
+CQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAA
+AAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAA
+AAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MB
+AQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAEAAAAAEA////AAUA
+////AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAA
+AAEA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8UAAAAAAABAAgAQXR0ZW5kZWWC/zMAIAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAABBTkQAg/86AAAAAAAABQcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAGAAQARXZlbnRzMjAxNA==
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRw/AAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABAPDw8AABAAAAAAAJAAAAAAABAPDw8AAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/yYAAAAFAAAAnQEAAAsAAAAAAAAAQ2F0ZWdvcmlfemUA
+AQBOfL7/TAAAAAEAHgCfAQAADAAAAAAAAABOZXcgQXR0ZW5kZWUqAAAAHgACAOgDAAAAAAAAAQAI
+AEF0dGVuZGVl7QIDAAcACgADAAk0UwBe/zQAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAABYA
+AQAMAE5ldyBBdHRlbmRlZQMAvv8oAAAABQAAAJ0BAAAOAAAAAAAAAF9FZGl0IERvY3VtZW50AwAC
+Cr7/KAAAAAUAAACdAQAADgAAAAAAAABfU2VuZCBEb2N1bWVudAQAAwq+/yIAAAAFAAAAnQEAAAgA
+AAAAAAAAX0ZvcndhcmQFAAQKvv8sAAAABQAAAJ0BAAASAAAAAAAAAF9Nb3ZlIFRvIEZvbGRlci4u
+LgYAPXy+/y4AAAAFAAAAnQEAABMAAAAAAAAAX1JlbW92ZSBGcm9tIEZvbGRlcmUHAD58vv8gAAAA
+BQAAAJ0BAAAFAAAAAAAAAF9SZWFkAAgAXny+/yIAAAAFAAAAnQEAAAcAAAAAAAAAX1VucmVhZAAJ
+AG58vv8uAAAABQAAAJ0BAAATAAAAAAAAAF9PcGVuIGluIE5ldyBXaW5kb3cACgB+fL7/JAAAAAUA
+AACdAQAACQAAAAAAAABfUHJpbnQuLi5uCwCOfL7/IgAAAAUAAACdAQAABwAAAAAAAABfRGVsZXRl
+AAwAnny+/y4AAAAFAAAAnQEAABQAAAAAAAAAX0RvY3VtZW50IFByb3BlcnRpZXMNAK58vv8eAAAA
+BQAAAJ0BAAAEAAAAAAAAAENfdXQOAL58vv8gAAAABQAAAJ0BAAAFAAAAAAAAAF9Db3B5AA8Azny+
+/zAAAAAFAAAAnQEAABYAAAAAAAAAQ29weSBhcyBEb2N1bWVudCBfTGluaxAA3ny+/ygAAAAFAAAA
+nQEAAA4AAAAAAAAAQ29weSBhcyBfVGFibGURAO58vv8gAAAABQAAAJ0BAAAGAAAAAAAAAFBfYXN0
+ZRIA/ny+/yAAAAAFAAAAnQEAAAUAAAAAAAAAX09wZW4AEwAOfb7/IgAAAAUAAACdAQAACAAAAAAA
+AABCb29rbWFyaxQAHn0=
+</rawitemdata></item>
+<item name='$CIAOOwner'><text>CN=Tim Clark/O=tcsoft</text></item>
+<item name='$CIAOTime'><datetime dst='true'>20140630T172129,57+01</datetime></item>
+<item name='$CIAOCheckOutTime'><datetime dst='true'>20140630T172409,61+01</datetime></item>
+<item name='$CIAOCheckOutComment'><text>added sorting the company column</text></item></note>
+
