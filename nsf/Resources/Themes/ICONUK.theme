@@ -30,4 +30,27 @@
 		</property>
 	</control>
 	-->
+		<control>
+		<name>LogoTopLeftFileName</name>
+		<property>
+			<name>value</name>
+			<value>ICONUKwebmono.png</value>
+		</property>
+		<property>
+			<name>height</name>
+			<value>20</value>
+		</property>
+		<property>
+			<name>width</name>
+			<value>116</value>
+		</property>
+		<property>
+			<name>style</name>
+			<value>"height: 20px;"</value>
+		</property>
+		
+		
+	</control>
+	
+	
 </theme>

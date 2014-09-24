@@ -26,10 +26,10 @@
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container-fluid">
-				<xp:link id="homelink" styleClass="brand" value="/home.xsp"
+
+			<xp:link id="homelink" styleClass="brand" value="/home.xsp"
 					title="#{javascript: database.getTitle()}">
-					<xp:image id="image1" url="/ICONUKwebmono.png"
-						style="height: 20px;" height="20" width="116">
+					<xp:image themeId="LogoTopLeftFileName">
 					</xp:image>
 				</xp:link>
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -46,6 +46,10 @@
 								<xp:this.text><![CDATA[#{javascript:@Name("[CN]", @UserName())}]]></xp:this.text>
 							</xp:link>
 						</xp:panel>
+						
+						
+						
+						
 						<li>
 							<xp:link id="loginlink" text="Login" styleClass="navbar-link">
 								<xp:this.value><![CDATA[#{javascript:getDbPath() + "?opendatabase&login=true"}]]></xp:this.value>
