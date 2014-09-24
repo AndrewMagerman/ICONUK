@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="646" sequence="91" unid="59A08D0215D3E5C980257A9500372666">
-<created><datetime dst="true">20121012T110223,10+01</datetime></created>
-<modified><datetime dst="true">20140908T075559,29+01</datetime></modified>
-<revised><datetime dst="true">20140908T075559,28+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075559,29+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075152,66+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Tim Clark/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="34e" sequence="12" unid="999D76F4AA31496DC1257D5D005B381D">
+<created><datetime dst="true">20140924T183621,41+02</datetime></created>
+<modified><datetime dst="true">20140924T184810,07+02</datetime></modified>
+<revised><datetime dst="true">20140924T184810,06+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184810,06+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183621,41+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
 <item name="$TITLE" sign="true"><text>view_speakers.xsp</text></item>
-
-
-
-
-
-
-
-<item name="$FileNames" sign="true"><text>view_speakers.xsp</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
 
-</note>
+
+
+
+<item name="$FileNames" sign="true"><text>view_speakers.xsp</text></item></note>

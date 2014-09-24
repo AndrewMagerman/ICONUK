@@ -1,18 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.0' replicaid='80257D4D0025B178'>
-<noteinfo noteid='11a' unid='80ECB66B2D21DE4980257A6A002CAD40' sequence='7'>
-<created><datetime dst='true'>20120830T090759,36+01</datetime></created>
-<modified><datetime dst='true'>20140908T075617,14+01</datetime></modified>
-<revised><datetime dst='true'>20140908T075617,13+01</datetime></revised>
-<lastaccessed><datetime dst='true'>20140908T075617,14+01</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20140908T075142,85+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=Agent Signer/O=Kimonos</name><name
->CN=Sake/OU=Servers/O=Kimonos</name><name>CN=Matt White/O=Exhilarate</name><name
->CN=Warren Elsmore/O=Kimonos</name><name>CN=Matt White/O=Exhilarate</name><name
->CN=Tim Clark/O=tcsoft</name><name>CN=domino9/O=tcsoft</name><name>CN=Tim Clark/O=tcsoft</name><name
->CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=domino9/O=tcsoft</name></wassignedby>
+ maintenanceversion='1.0' replicaid='C1257D5D005B22E4'>
+<noteinfo noteid='11e' unid='97C1109AD7D22996C1257D5D005B22F4' sequence='13'>
+<created><datetime dst='true'>20140924T183527,24+02</datetime></created>
+<modified><datetime dst='true'>20140924T184832,20+02</datetime></modified>
+<revised><datetime dst='true'>20140924T184832,19+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140924T184832,19+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140924T183527,26+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name='IconBitmap' summary='true' sign='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///gAH//gAAf/wAAD/4AAAf8AAAD+AAAAfgAAAHwAAAA8AAAAPAAAADgAAA
@@ -29,14 +25,14 @@ L2ZvgAAACMZmZmZmZmZmZmZmbIAAAACMZmZmZmZmZmZmZsgAAAAACMZmZmZmZmZmZmyAAAAAAACM
 AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
 <item name='$DBTheme' sign='true'><text>blank.theme</text></item>
-<item name='$DefaultXPage' sign='true'><text>home.xsp</text></item>
-<item name='$FlagsNoRefresh' sign='true'><text/></item>
-<item name='$Flags'><text>J!7</text></item>
 <item name='$TemplateServerName' sign='true'><text>CN=Matt White/O=Exhilarate</text></item>
 <item name='$PIRCRefreshModTime' sign='true'><datetime dst='true'>20130426T080440,59+01</datetime></item>
 <item name='$TemplateModTime' sign='true'><datetime dst='true'>20130426T080422,77+01</datetime></item>
 <item name='$TemplateFileName' sign='true'><text>c:\IBM\Notes\Data\uklug_201304260800.ntf</text></item>
 <item name='$Daos'><text>0</text></item>
-<item name='$TITLE'><text>ICON UK Template
-</text></item></note>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$DefaultXPage'><text>home.xsp</text></item>
+<item name='$TITLE'><text>ICON UK Template</text></item>
+<item name='$Flags'><text>J7!</text></item>
+<item name='$FlagsNoRefresh'><text>rv</text></item></note>
 
