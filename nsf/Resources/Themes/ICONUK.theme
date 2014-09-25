@@ -49,6 +49,14 @@
 			<value>"height: 20px;"</value>
 		</property>
 		
+		<control>
+		<name>ThemeSpecificCss</name>
+		<property>
+			<name>value</name>
+			<value>iconuk.css</value>
+		</property>
+	</control>
+		
 		
 	</control>
 	

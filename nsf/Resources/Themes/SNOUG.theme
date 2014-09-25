@@ -1,34 +1,27 @@
-<!--
-	The default theme contents use theme inheritance.
 
-	Application themes can extend an existing global theme using the
-	extends attribute.  Existing themes include the following options:
-
-	1. webstandard 2. oneui 3. notes
--->
-<theme extends="blank" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd" >
-	<!-- 
-		Use this pattern to include resources (such as style sheets
-		and JavaScript files that are used by this theme.
+	<!--
+		The default theme contents use theme inheritance. Application themes
+		can extend an existing global theme using the extends attribute.
+		Existing themes include the following options: 1. webstandard 2. oneui
+		3. notes
+	-->
+<theme extends="blank" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
+	<!--
+		Use this pattern to include resources (such as style sheets and
+		JavaScript files that are used by this theme.
 	-->
 	<!--
-	<resource>
-		<content-type>text/css</content-type>
-		<href>mystylesheet.css</href>
-	</resource>
+		<resource> <content-type>text/css</content-type>
+		<href>mystylesheet.css</href> </resource>
 	-->
 
 	<!--
 		Use this pattern to define property name/value pairs for controls
 	-->
 	<!--
-	<control>
-		<name>[Control Name]</name>
-		<property>
-			<name>[property Name]</name>
-			<value>[property Value]</value>
-		</property>
-	</control>
+		<control> <name>[Control Name]</name> <property> <name>[property
+		Name]</name> <value>[property Value]</value> </property> </control>
 	-->
 	<control>
 		<name>LogoTopLeftFileName</name>
@@ -49,6 +42,13 @@
 			<value>"height: 20px;"</value>
 		</property>
 	</control>
-	
-	
+
+	<control>
+		<name>ThemeSpecificCss</name>
+		<property>
+			<name>value</name>
+			<value>snoug.css</value>
+		</property>
+	</control>
+
 </theme>

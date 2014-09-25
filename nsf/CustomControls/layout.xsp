@@ -8,6 +8,7 @@
 		<xp:styleSheet href="/custom.css"></xp:styleSheet>
 		<xp:styleSheet href="/bootstrap.min.css"></xp:styleSheet>
 		<xp:styleSheet href="/docs.css"></xp:styleSheet>
+		
 		<xp:script src="/jquery-1.8.0.min.js" clientSide="true"></xp:script>
 		<xp:script src="/bootstrap.js" clientSide="true"></xp:script>
 		<xp:script src="/xpCommon.jss" clientSide="false"></xp:script>
