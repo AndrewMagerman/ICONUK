@@ -7,10 +7,10 @@ function getStrings(){
 // see http://www-10.lotus.com/ldd/ddwiki.nsf/dx/JavaScriptInternationalization.htm
 //	sessionScope.put("Language","de-CH");
 	//view.setLocale(new Locale("de", "CH"));
-	view.setLocale(new Locale('de'));
+//	view.setLocale(new Locale('de'));
     var locale = view.getLocale();
-    print ('locale ' + locale);
-    print ('context locale ' + context.getLocale())
+  //  print ('locale ' + locale);
+  //  print ('context locale ' + context.getLocale())
     if( applicationScope.stringsPerLocale ){
             var existingStrings = applicationScope.stringsPerLocale[locale];
             if( existingStrings ){
@@ -54,7 +54,7 @@ var TOPMENUITEMS = [
  * The top level menu items which will appear for authenticated users
  */
 var TOPMENUITEMSUSER = [
-	{"title": "Home1", "link": "/home.xsp", "controlpanelconfig": null}, 
+	{"title": "Home", "link": "/home.xsp", "controlpanelconfig": null}, 
 	{"title": "Agenda", "link": "/agenda.xsp", "controlpanelconfig": "EnableAgenda"}, 
 	{"title": libraryMessage("sessions"), "link": "/sessions.xsp", "controlpanelconfig": null}, 
 	{"title": libraryMessage('speakers'), "link": "/speakers.xsp", "controlpanelconfig": null}, 
