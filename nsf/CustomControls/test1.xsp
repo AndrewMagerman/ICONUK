@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.resources>
+		<xp:script src="/xpCommon.jss" clientSide="false"></xp:script>
+		<xp:bundle src="/internationalization.properties" var="strings">
+		</xp:bundle>
+		<xp:bundle src="/internationalization_de_CH.properties" var="strings">
+		</xp:bundle>
+	</xp:this.resources>
+
+	<xp:text escape="true" id="computedField1">
+		<xp:this.value><![CDATA[#{javascript:return strings['sessions'];}]]></xp:this.value>
+	</xp:text>
+
+	<br />
+	view.getLocale():
+	<xp:text escape="true" id="computedField2">
+		<xp:this.value><![CDATA[#{javascript:return view.getLocale();}]]></xp:this.value>
+	</xp:text>
+
+	<br />
+	<br />
+	context.getLocale();
+	<xp:text escape="true" id="computedField3">
+		<xp:this.value><![CDATA[#{javascript:return context.getLocale();}]]></xp:this.value>
+	</xp:text>
+
+	<br />
+	<br />
+	librarymessage
+	<br />
+	<xp:text escape="true" id="computedField4">
+		<xp:this.value><![CDATA[#{javascript:libraryMessage('registration')}]]></xp:this.value>
+	</xp:text>
+		<br />
+				<br />
+	sessionScope.Language()
+		<br />
+	<xp:text escape="true" id="computedField5">
+		<xp:this.value><![CDATA[#{javascript:sessionScope.get("Language")}]]></xp:this.value>
+	</xp:text>
+
+
+
+
+
+</xp:view>

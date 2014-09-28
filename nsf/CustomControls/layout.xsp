@@ -8,7 +8,7 @@
 		<xp:styleSheet href="/custom.css"></xp:styleSheet>
 		<xp:styleSheet href="/bootstrap.min.css"></xp:styleSheet>
 		<xp:styleSheet href="/docs.css"></xp:styleSheet>
-		
+
 		<xp:script src="/jquery-1.8.0.min.js" clientSide="true"></xp:script>
 		<xp:script src="/bootstrap.js" clientSide="true"></xp:script>
 		<xp:script src="/xpCommon.jss" clientSide="false"></xp:script>
@@ -24,11 +24,12 @@
 		src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]
 	-->
+	<xp:this.beforePageLoad><![CDATA[#{javascript:sessionScope.put("Language","de-CH")}]]></xp:this.beforePageLoad>
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container-fluid">
 
-			<xp:link id="homelink" styleClass="brand" value="/home.xsp"
+				<xp:link id="homelink" styleClass="brand" value="/home.xsp"
 					title="#{javascript: database.getTitle()}">
 					<xp:image themeId="LogoTopLeftFileName">
 					</xp:image>
@@ -47,10 +48,10 @@
 								<xp:this.text><![CDATA[#{javascript:@Name("[CN]", @UserName())}]]></xp:this.text>
 							</xp:link>
 						</xp:panel>
-						
-						
-						
-						
+
+
+
+
 						<li>
 							<xp:link id="loginlink" text="Login" styleClass="navbar-link">
 								<xp:this.value><![CDATA[#{javascript:getDbPath() + "?opendatabase&login=true"}]]></xp:this.value>

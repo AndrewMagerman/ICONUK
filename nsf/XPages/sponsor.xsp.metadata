@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="5ca" sequence="18" unid="5034D9EED177F1BE80257A98004A32E7">
-<created><datetime dst="true">20121015T143026,95+01</datetime></created>
-<modified><datetime dst="true">20140908T075559,03+01</datetime></modified>
-<revised><datetime dst="true">20140908T075559,02+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075559,03+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075151,63+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="16e" sequence="16" unid="36581C2748ED0B52C1257D5D005B2752">
+<created><datetime dst="true">20140924T183538,42+02</datetime></created>
+<modified><datetime dst="true">20140925T104905,54+02</datetime></modified>
+<revised><datetime dst="true">20140925T104905,53+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140925T104905,53+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183538,42+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$Flags"><text>gC~4K</text></item>
-
-
-<item name="$FileNames" sign="true"><text>sponsors_1.xsp</text></item>
 <item name="$TITLE" sign="true"><text>sponsor.xsp</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5</text></item>
 
+
+<item name="$FileNames" sign="true"><text>sponsor.xsp</text></item>
+
+<item name="$DesignerVersion"><text>8.5</text></item>
 
 
 
