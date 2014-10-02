@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="10ce" sequence="9" unid="2916E2BBB61D34EF80257BD70049D5B2">
-<created><datetime dst="true">20130830T142628,34+01</datetime></created>
-<modified><datetime dst="true">20140908T075559,51+01</datetime></modified>
-<revised><datetime dst="true">20140908T075559,50+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075559,51+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075215,42+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2c2" sequence="6" unid="0503C9C0A3A5EA4BC1257D5D005B32AC">
+<created><datetime dst="true">20140924T183607,48+02</datetime></created>
+<modified><datetime dst="true">20140924T184757,88+02</datetime></modified>
+<revised><datetime dst="true">20140924T184757,87+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184757,87+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183607,48+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>whatson.html</text></item>
 <item name="$MimeType" sign="true"><text>text/html</text></item>
 <item name="$Flags"><text>345Cg&gt;Q</text></item>
 <item name="$MimeCharSet" sign="true"><text>UTF-8</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 <item name="$FileNames" sign="true"><text>whatson.html</text></item></note>

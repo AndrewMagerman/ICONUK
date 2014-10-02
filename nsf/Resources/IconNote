@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
  maintenanceversion='1.0' replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='11e' unid='97C1109AD7D22996C1257D5D005B22F4' sequence='32'>
+<noteinfo noteid='11e' unid='97C1109AD7D22996C1257D5D005B22F4' sequence='37'>
 <created><datetime dst='true'>20140924T183527,24+02</datetime></created>
-<modified><datetime dst='true'>20140925T182922,64+02</datetime></modified>
-<revised><datetime dst='true'>20140925T182922,63+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20140925T182922,63+02</datetime></lastaccessed>
+<modified><datetime dst='true'>20140928T173037,97+02</datetime></modified>
+<revised><datetime dst='true'>20140928T173037,96+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140928T173037,96+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20140924T183527,26+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -31,9 +31,9 @@ AAAAUEECICABAAD/////+A4DgA==
 <item name='$TemplateFileName' sign='true'><text>c:\IBM\Notes\Data\uklug_201304260800.ntf</text></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$DefaultXPage'><text>home.xsp</text></item>
-<item name='$TITLE'><text>ICON UK Template
-</text></item>
 <item name='$Flags'><text>J7!</text></item>
 <item name='$LaunchXPageRunOnServer'><text>0</text></item>
-<item name='$FlagsNoRefresh'><text>rv</text></item></note>
+<item name='$FlagsNoRefresh'><text>rv</text></item>
+<item name='$TITLE'><text>ICON UK Template
+#1lugtemplate</text></item></note>
 

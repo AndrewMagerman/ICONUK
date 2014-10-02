@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="10fa" sequence="7" unid="231DEC36DD0B3C4F80257B590027D7DF">
-<created><datetime dst="true">20130426T081511,67+01</datetime></created>
-<modified><datetime dst="true">20140908T075556,91+01</datetime></modified>
-<revised><datetime dst="true">20140908T075556,90+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075556,91+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075215,85+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="306" sequence="6" unid="9671031E43D90C9FC1257D5D005B358E">
+<created><datetime dst="true">20140924T183614,86+02</datetime></created>
+<modified><datetime dst="true">20140924T184804,97+02</datetime></modified>
+<revised><datetime dst="true">20140924T184804,96+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184804,96+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183614,86+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>bootstrap.min.css</text></item>
 <item name="$Flags"><text>345CgQ</text></item>
 <item name="$FlagsExt" sign="true"><text>D</text></item>
 <item name="$FileModDT" sign="true"><datetime dst="true">20120830T080520,00+01</datetime></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 

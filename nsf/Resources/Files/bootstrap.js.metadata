@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="bda" sequence="9" unid="337737085070939D80257B26003A2FC6">
-<created><datetime>20130306T103533,18+00</datetime></created>
-<modified><datetime dst="true">20140908T075556,89+01</datetime></modified>
-<revised><datetime dst="true">20140908T075556,88+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075556,89+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075205,19+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="30a" sequence="6" unid="0A5C414B917FBD4EC1257D5D005B35BB">
+<created><datetime dst="true">20140924T183615,31+02</datetime></created>
+<modified><datetime dst="true">20140924T184805,37+02</datetime></modified>
+<revised><datetime dst="true">20140924T184805,36+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184805,36+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183615,31+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>bootstrap.js</text></item>
 <item name="$Flags"><text>345CgQ</text></item>
 <item name="$FlagsExt" sign="true"><text>D</text></item>
-
 <item name="$FileModDT" sign="true"><datetime>20130228T212604,00+00</datetime></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 
-<item name="$FileNames" sign="true"><text>bootstrap.js</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item></note>
+
+<item name="$FileNames" sign="true"><text>bootstrap.js</text></item></note>

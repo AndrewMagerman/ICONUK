@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="546" sequence="9" unid="FD53824D88A0578380257A6B002D64D2">
-<created><datetime dst="true">20120831T091549,30+01</datetime></created>
-<modified><datetime dst="true">20140908T075559,15+01</datetime></modified>
-<revised><datetime dst="true">20140908T075559,14+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075559,15+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075150,63+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="23a" sequence="6" unid="36FFB105E5D2AA71C1257D5D005B2D4A">
+<created><datetime dst="true">20140924T183553,70+02</datetime></created>
+<modified><datetime dst="true">20140924T184744,60+02</datetime></modified>
+<revised><datetime dst="true">20140924T184744,59+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184744,59+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183553,72+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>validationEngine.jquery.css</text></item>
 <item name="$Flags"><text>34C=Q</text></item>
 <item name="$FlagsExt" sign="true"><text>D</text></item>
-
 <item name="$FileModDT" sign="true"><datetime dst="true">20120830T145714,00+01</datetime></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
-<item name="$FileNames" sign="true"><text>validationEngine.jquery.css</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item></note>
+
+<item name="$FileNames" sign="true"><text>validationEngine.jquery.css</text></item></note>

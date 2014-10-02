@@ -68,7 +68,7 @@
 
 	<div id="container" class="clearfix fluid">
 		<div id="bricks" class="thumbnails" style="margin-top: 10px;">
-			<!--  <xp:panel styleClass="thumbnail col3">
+			<xp:panel styleClass="thumbnail col3">
 				<xp:this.rendered><![CDATA[#{javascript:@UserName() != "Anonymous" && context.getUrlParameter("filter") != "voting"}]]></xp:this.rendered>
 				<h3>Submit a session</h3>
 				<p>
@@ -82,7 +82,7 @@
 						</xp:link>
 					</p>
 				</p> 
-			</xp:panel>-->
+			</xp:panel>
 			<xp:repeat id="repeat1" rows="999" value="#{view1}" var="sessiondoc"
 				indexVar="sessionindex" disableOutputTag="true">
 				<xp:this.rendered><![CDATA[#{javascript:context.getUrlParameter("filter") != "voting"}]]></xp:this.rendered>

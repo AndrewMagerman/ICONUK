@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
- replicaid='C1257D5800444652'>
-<noteinfo noteid='3d2' unid='203303B6E59C5FE0C1257D5800449908' sequence='2'>
-<created><datetime dst='true'>20140919T142916,24+02</datetime></created>
-<modified><datetime dst='true'>20140919T143640,71+02</datetime></modified>
-<revised><datetime dst='true'>20140919T143640,70+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20140919T143640,70+02</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20140919T142916,50+02</datetime></addedtofile></noteinfo>
+ replicaid='C1257D5D005B22E4'>
+<noteinfo noteid='312' unid='C968E2DB11F48755C1257D5D005B35FE' sequence='4'>
+<created><datetime dst='true'>20140924T183615,98+02</datetime></created>
+<modified><datetime dst='true'>20140924T184806,01+02</datetime></modified>
+<revised><datetime dst='true'>20140924T184806,00+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140924T184806,00+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140924T183615,98+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name='$HTMLCode' sign='true'>

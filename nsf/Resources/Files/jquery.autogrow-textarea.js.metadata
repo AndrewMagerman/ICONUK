@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="10a2" sequence="9" unid="EB6EB0232C07DC4680257A8E00496966">
-<created><datetime dst="true">20121005T142151,10+01</datetime></created>
-<modified><datetime dst="true">20140908T075558,33+01</datetime></modified>
-<revised><datetime dst="true">20140908T075558,32+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075558,33+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075215,11+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Matt White/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Matt White/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Matt White/O=Exhilarate</name><name>CN=Mixed2/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Matt White/O=Exhilarate</name><name>CN=Mixed3/O=Exhilarate</name><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2e2" sequence="6" unid="38D01C379CB9951CC1257D5D005B33FD">
+<created><datetime dst="true">20140924T183610,85+02</datetime></created>
+<modified><datetime dst="true">20140924T184801,14+02</datetime></modified>
+<revised><datetime dst="true">20140924T184801,13+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184801,13+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183610,85+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>jquery.autogrow-textarea.js</text></item>
 <item name="$Flags"><text>345CgQ</text></item>
 <item name="$FlagsExt" sign="true"><text>D</text></item>
-
 <item name="$FileModDT" sign="true"><datetime dst="true">20120626T135812,00+01</datetime></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
-<item name="$FileNames" sign="true"><text>jquery.autogrow-textarea.js</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item></note>
+
+<item name="$FileNames" sign="true"><text>jquery.autogrow-textarea.js</text></item></note>
