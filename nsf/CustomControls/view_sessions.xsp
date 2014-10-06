@@ -73,15 +73,15 @@
 				<h3>Submit a session</h3>
 				<p>
 					We're always looking for new speakers, if you'd like
-					to start speaking, then this is a good place to get
+					to start
+					speaking, then this is a good place to get
 					going.
 					<p>
-						<xp:link escape="true" id="link1"
-							text="Submit a session..." value="/session.xsp"
-							styleClass="btn btn-primary btn-large">
+						<xp:link escape="true" id="link1" text="Submit a session..."
+							value="/session.xsp" styleClass="btn btn-primary btn-large">
 						</xp:link>
 					</p>
-				</p> 
+				</p>
 			</xp:panel>
 			<xp:repeat id="repeat1" rows="999" value="#{view1}" var="sessiondoc"
 				indexVar="sessionindex" disableOutputTag="true">
@@ -146,6 +146,10 @@ if(@IsError(out)){
 	return out;
 }}]]></xp:this.value>
 					</xp:text>
+			
+
+
+
 					<p>
 						<xp:link escape="true" text="View Details..." id="link2"
 							styleClass="btn">

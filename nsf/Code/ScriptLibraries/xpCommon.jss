@@ -1,16 +1,15 @@
 function libraryMessage(key){
-    // 'Library message'
+ //  print ('libraryMessage: got key ' + key);
+ //  print (getStrings().toString);
   return getStrings()[key];
-//	return "haha";
 }
 function getStrings(){
 // see http://www-10.lotus.com/ldd/ddwiki.nsf/dx/JavaScriptInternationalization.htm
-//	sessionScope.put("Language","de-CH");
-	//view.setLocale(new Locale("de", "CH"));
-//	view.setLocale(new Locale('de'));
+
     var locale = view.getLocale();
-  //  print ('locale ' + locale);
-  //  print ('context locale ' + context.getLocale())
+	//print ('this is view.getLocale' + locale);
+    //print ('this is context.getLocale' + context.getLocale());
+    
     if( applicationScope.stringsPerLocale ){
             var existingStrings = applicationScope.stringsPerLocale[locale];
             if( existingStrings ){
@@ -28,6 +27,7 @@ function getStrings(){
             }
             applicationScope.stringsPerLocale[locale] = strings;
     }
+ //   print ('returning first setup of strings');
     return strings;
 }
 
