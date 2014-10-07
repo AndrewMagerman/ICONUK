@@ -138,17 +138,14 @@ return out;}]]></xp:this.styleClass>
 						value="#{sessiondoc.Presenter} / #{sessiondoc.Track}">
 
 					</xp:text>
-					<xp:text tagName="blockquote" id="computedField1" escape="true">
-						<xp:this.value><![CDATA[#{javascript:var out = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 2);
-if(@IsError(out)){
-	return "Not yet scheduled";
-}else{
-	return out;
-}}]]></xp:this.value>
+						
+					<xp:text tagName="blockquote" id="computedField2"
+						escape="true">
+						<xp:this.value><![CDATA[#{javascript:var date = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 3);
+var time = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 4);
+var msg = libraryMessage('dayxaty');
+return I18n.format(msg, date, time) ; }]]></xp:this.value>
 					</xp:text>
-			
-
-
 
 					<p>
 						<xp:link escape="true" text="View Details..." id="link2"
