@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="7be" sequence="4" unid="124461FCFC35FDD7C1257D690067B81D">
+<created><datetime dst="true">20141006T205253,41+02</datetime></created>
+<modified><datetime dst="true">20141006T205322,87+02</datetime></modified>
+<revised><datetime dst="true">20141006T205322,86+02</datetime></revised>
+<lastaccessed><datetime dst="true">20141006T205322,86+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20141006T205255,54+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$MimeCharSet" sign="true"><text>UTF-8</text></item>
+<item name="$TITLE" sign="true"><text>internationalization_de-ch.properties</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>internationalization_de-ch.properties</text></item></note>

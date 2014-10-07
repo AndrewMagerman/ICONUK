@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="48e" sequence="9" unid="CBA6781CC1C3294580257A95004F54AF">
-<created><datetime dst="true">20121012T152630,23+01</datetime></created>
-<modified><datetime dst="true">20140908T075556,85+01</datetime></modified>
-<revised><datetime dst="true">20140908T075556,84+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075556,85+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075149,30+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2b6" sequence="6" unid="97D8E9B1B543FDC3C1257D5D005B3232">
+<created><datetime dst="true">20140924T183606,26+02</datetime></created>
+<modified><datetime dst="true">20140924T184756,68+02</datetime></modified>
+<revised><datetime dst="true">20140924T184756,67+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184756,67+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183606,26+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$ImagesWide" sign="true"><number>1</number></item>
 <item name="$ImagesHigh" sign="true"><number>1</number></item>
-
 <item name="$ImageNames" sign="true"><text>blank.gif</text></item>
 <item name="$Comment" sign="true"><text>used in the outline elements when no graphic is desired</text></item>
 <item name="$TITLE" sign="true"><textlist><text>blank.gif</text><text>blank.gif</text></textlist></item>
 <item name="$Flags"><text>34Ci</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+<item name="$LANGUAGE" sign="true"><text>en</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

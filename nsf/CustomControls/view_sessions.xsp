@@ -68,21 +68,21 @@
 
 	<div id="container" class="clearfix fluid">
 		<div id="bricks" class="thumbnails" style="margin-top: 10px;">
-			<!--  <xp:panel styleClass="thumbnail col3">
+			<xp:panel styleClass="thumbnail col3">
 				<xp:this.rendered><![CDATA[#{javascript:@UserName() != "Anonymous" && context.getUrlParameter("filter") != "voting"}]]></xp:this.rendered>
 				<h3>Submit a session</h3>
 				<p>
 					We're always looking for new speakers, if you'd like
-					to start speaking, then this is a good place to get
+					to start
+					speaking, then this is a good place to get
 					going.
 					<p>
-						<xp:link escape="true" id="link1"
-							text="Submit a session..." value="/session.xsp"
-							styleClass="btn btn-primary btn-large">
+						<xp:link escape="true" id="link1" text="Submit a session..."
+							value="/session.xsp" styleClass="btn btn-primary btn-large">
 						</xp:link>
 					</p>
-				</p> 
-			</xp:panel>-->
+				</p>
+			</xp:panel>
 			<xp:repeat id="repeat1" rows="999" value="#{view1}" var="sessiondoc"
 				indexVar="sessionindex" disableOutputTag="true">
 				<xp:this.rendered><![CDATA[#{javascript:context.getUrlParameter("filter") != "voting"}]]></xp:this.rendered>
@@ -138,14 +138,15 @@ return out;}]]></xp:this.styleClass>
 						value="#{sessiondoc.Presenter} / #{sessiondoc.Track}">
 
 					</xp:text>
-					<xp:text tagName="blockquote" id="computedField1" escape="true">
-						<xp:this.value><![CDATA[#{javascript:var out = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 2);
-if(@IsError(out)){
-	return "Not yet scheduled";
-}else{
-	return out;
-}}]]></xp:this.value>
+						
+					<xp:text tagName="blockquote" id="computedField2"
+						escape="true">
+						<xp:this.value><![CDATA[#{javascript:var date = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 3);
+var time = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 4);
+var msg = libraryMessage('dayxaty');
+return I18n.format(msg, date, time) ; }]]></xp:this.value>
 					</xp:text>
+
 					<p>
 						<xp:link escape="true" text="View Details..." id="link2"
 							styleClass="btn">

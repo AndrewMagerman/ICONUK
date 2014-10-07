@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="da6" sequence="5" unid="4D33F640695719C680257B59002789EC">
-<created><datetime dst="true">20130426T081152,12+01</datetime></created>
-<modified><datetime dst="true">20140908T075557,11+01</datetime></modified>
-<revised><datetime dst="true">20140908T075557,10+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075557,11+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075208,91+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="24e" sequence="6" unid="BA3A9C66CE07A77CC1257D5D005B2E15">
+<created><datetime dst="true">20140924T183555,73+02</datetime></created>
+<modified><datetime dst="true">20140924T184746,54+02</datetime></modified>
+<revised><datetime dst="true">20140924T184746,53+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184746,53+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183555,72+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>docs.css</text></item>
 <item name="$MimeType" sign="true"><text>text/css</text></item>
 <item name="$Flags"><text>34C=Q</text></item>
 <item name="$MimeCharSet" sign="true"><text>UTF-8</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 <item name="$FileNames" sign="true"><text>docs.css</text></item></note>

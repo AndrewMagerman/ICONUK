@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
 
 	<xp:this.data>
 		<xp:dominoView var="view1" viewName="Sponsors By Level"></xp:dominoView>
@@ -9,7 +10,8 @@
 	</xp:this.resources>
 	<xp:repeat id="repeat1" rows="999" value="#{view1}" var="sponsordoc"
 		indexVar="sponsorindex" disableOutputTag="true">
-		<xp:panel id="category" rendered="#{javascript:sponsordoc.isCategory();}"
+		<xp:panel id="category"
+			rendered="#{javascript:sponsordoc.isCategory();}"
 			styleClass="well well-small">
 			<xp:text escape="true" id="computedField1" tagName="p">
 
@@ -25,7 +27,8 @@ if (level == "1"){
 }}]]></xp:this.value>
 			</xp:text>
 		</xp:panel>
-		<xp:span style="padding: 3px;"  rendered="#{javascript:!sponsordoc.isCategory();}">
+		<xp:span style="padding: 3px;"
+			rendered="#{javascript:!sponsordoc.isCategory();}">
 			<xp:panel id="footerlink" tagName="a">
 				<xp:this.attrs>
 					<xp:attr name="href">
@@ -39,5 +42,10 @@ if (level == "1"){
 			</xp:panel>
 		</xp:span>
 	</xp:repeat>
-	<p>&#169; ICON UK 2014 | Site created by&#160;<a href="http://londc.com" target="newwin">London Developer Co-op</a></p>
+	<p>
+		&#169; ICON UK 2014 | Site created by&#160;
+		<a href="http://londc.com" target="newwin">
+			London Developer Co-op
+		</a>
+	</p>
 </xp:view>

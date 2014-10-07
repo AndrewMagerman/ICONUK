@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
- replicaid='80257D4D0025B178'>
-<noteinfo noteid='54a' unid='58C2AB7C9A48BA6180257A99004CD0E7' sequence='19'>
-<created><datetime dst='true'>20121016T145902,15+01</datetime></created>
-<modified><datetime dst='true'>20140908T075556,73+01</datetime></modified>
-<revised><datetime dst='true'>20140908T075556,72+01</datetime></revised>
-<lastaccessed><datetime dst='true'>20140908T075556,73+01</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20140908T075150,66+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Tim Clark/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+ replicaid='C1257D5D005B22E4'>
+<noteinfo noteid='222' unid='0F0D273B06C1F9AFC1257D5D005B2C92' sequence='4'>
+<created><datetime dst='true'>20140924T183551,86+02</datetime></created>
+<modified><datetime dst='true'>20140924T184742,48+02</datetime></modified>
+<revised><datetime dst='true'>20140924T184742,47+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140929T154746,06+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140924T183551,86+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name='$FormatNote' summary='true' sign='true'>
 <rawitemdata type='4'>
 AQATsAbQGanfeD+tLABqeiWA

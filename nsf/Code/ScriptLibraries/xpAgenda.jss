@@ -24,7 +24,7 @@ function getSessionDetails(unid){
 			out += "<blockquote>" + doc.getItemValueString("Presenter");
 			out += " / " + doc.getItemValueString("Track") + "</blockquote>";
 		}else{
-			out += "<h3>Session to be announced</h3>";
+			out += "<h3>" + libraryMessage('sessiontobeannounced')+"</h3>";
 		}
 		out += "</div>"
 		doc.recycle();

@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="482" sequence="9" unid="D9383F0CC56510BD80257A94003ACF5B">
-<created><datetime dst="true">20121011T114221,71+01</datetime></created>
-<modified><datetime dst="true">20140908T075558,41+01</datetime></modified>
-<revised><datetime dst="true">20140908T075558,40+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075558,41+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075149,21+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="24a" sequence="6" unid="35AB765FBB573359C1257D5D005B2DEC">
+<created><datetime dst="true">20140924T183555,32+02</datetime></created>
+<modified><datetime dst="true">20140924T184746,15+02</datetime></modified>
+<revised><datetime dst="true">20140924T184746,14+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184746,14+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183555,32+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>jquery.timepicker.css</text></item>
 <item name="$Flags"><text>34C=Q</text></item>
 <item name="$FlagsExt" sign="true"><text>D</text></item>
-
 <item name="$FileModDT" sign="true"><datetime dst="true">20121010T072104,00+01</datetime></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
-<item name="$FileNames" sign="true"><text>jquery.timepicker.css</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item></note>
+
+<item name="$FileNames" sign="true"><text>jquery.timepicker.css</text></item></note>

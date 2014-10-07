@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="filter" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="53a" sequence="28" unid="0756CAB9B6092B5980257A94002CB083">
-<created><datetime dst="true">20121011T090807,71+01</datetime></created>
-<modified><datetime dst="true">20140908T075559,65+01</datetime></modified>
-<revised><datetime dst="true">20140908T075559,64+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075559,65+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075150,56+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3b2" sequence="6" unid="95B0E6DB1A432CB7C1257D5D005B3DCF">
+<created><datetime dst="true">20140924T183635,99+02</datetime></created>
+<modified><datetime dst="true">20140924T184824,17+02</datetime></modified>
+<revised><datetime dst="true">20140924T184824,16+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184824,16+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183635,99+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name="$POID"><datetime dst="true">20130411T085650,18+01</datetime></item>
 <item name="$TITLE" sign="true"><text>xpSessions</text></item>
 <item name="$Flags"><text>.5834Q</text></item>
 <item name="$PublicAccess" sign="true"><text>1</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
-
-<item name="$POID"><datetime dst="true">20130411T085650,18+01</datetime></item></note>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+</note>

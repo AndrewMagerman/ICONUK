@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257D4D0025B178" version="9.0">
-<noteinfo noteid="436" sequence="37" unid="E893ABBAA8B5274480257A6A002CBB87">
-<created><datetime dst="true">20120830T090835,91+01</datetime></created>
-<modified><datetime dst="true">20140908T075556,87+01</datetime></modified>
-<revised><datetime dst="true">20140908T075556,86+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140908T075556,87+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140908T075148,65+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name><name>CN=domino9/O=tcsoft</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="22e" sequence="10" unid="801A0C3C0990CA6BC1257D5D005B2CD2">
+<created><datetime dst="true">20140924T183552,50+02</datetime></created>
+<modified><datetime dst="true">20140924T184743,49+02</datetime></modified>
+<revised><datetime dst="true">20140924T184743,48+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T184743,48+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T183552,49+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name="$TITLE"><text>blank.theme</text></item>
 <item name="$Flags"><text>34567Cg~`</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 <item name="$FileNames" sign="true"><text>blank.theme</text></item></note>

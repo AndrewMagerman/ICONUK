@@ -1,16 +1,53 @@
+function libraryMessage(key){
+ //  print ('libraryMessage: got key ' + key);
+ //  print (getStrings().toString);
+  return getStrings()[key];
+}
+function getStrings(){
+// see http://www-10.lotus.com/ldd/ddwiki.nsf/dx/JavaScriptInternationalization.htm
+
+    var locale = view.getLocale();
+	//print ('this is view.getLocale' + locale);
+    //print ('this is context.getLocale' + context.getLocale());
+    
+    if( applicationScope.stringsPerLocale ){
+            var existingStrings = applicationScope.stringsPerLocale[locale];
+            if( existingStrings ){
+                    return existingStrings;
+            }
+    }
+    var resource = new com.ibm.xsp.resource.BundleResource();
+    resource.src = "/internationalization.properties";
+    resource.component = view;
+    var strings = resource.contents;
+    
+    synchronized(applicationScope){
+            if( ! applicationScope.stringsPerLocale ) {
+                    applicationScope.stringsPerLocale = new java.util.HashMap();
+            }
+            applicationScope.stringsPerLocale[locale] = strings;
+    }
+ //   print ('returning first setup of strings');
+    return strings;
+}
+
+function hello(){
+	return "salut";
+}
+
 /**
  * The top level menut items which will appear for anonymous users
  */
 var TOPMENUITEMS = [
 	{"title": "Home", "link": "/home.xsp", "controlpanelconfig": null}, 
-	{"title": "Registration", "link": "/registration.xsp", "controlpanelconfig": "EnableRegistration"}, 
+	{"title": libraryMessage('registration'), "link": "/registration.xsp", "controlpanelconfig": "EnableRegistration"}, 
 	{"title": "Agenda", "link": "/agenda.xsp", "controlpanelconfig": "EnableAgenda"}, 
-	{"title": "Sessions", "link": "/sessions.xsp", "controlpanelconfig": null}, 
-	{"title": "Speakers", "link": "/speakers.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage("sessions"), "link": "/sessions.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage('speakers'), "link": "/speakers.xsp", "controlpanelconfig": null}, 
 	{"title": "Forum", "link": "http://" + facesContext.getExternalContext().getRequest().getServerName() + "/forum", "controlpanelconfig": "EnableForum"}, 
-	{"title": "Sponsors", "link": "/sponsors.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage('sponsors'), "link": "/sponsors.xsp", "controlpanelconfig": null}, 
 	{"title": "FAQ", "link": "/faqs.xsp", "controlpanelconfig": null}, 
-	{"title": "Contact Us", "link": "/contact.xsp", "controlpanelconfig": null}
+	{"title": libraryMessage('contactus'), "link": "/contact.xsp", "controlpanelconfig": null}
 ];
 
 /**
@@ -19,12 +56,12 @@ var TOPMENUITEMS = [
 var TOPMENUITEMSUSER = [
 	{"title": "Home", "link": "/home.xsp", "controlpanelconfig": null}, 
 	{"title": "Agenda", "link": "/agenda.xsp", "controlpanelconfig": "EnableAgenda"}, 
-	{"title": "Sessions", "link": "/sessions.xsp", "controlpanelconfig": null}, 
-	{"title": "Speakers", "link": "/speakers.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage("sessions"), "link": "/sessions.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage('speakers'), "link": "/speakers.xsp", "controlpanelconfig": null}, 
 	{"title": "Forum", "link": "http://" + facesContext.getExternalContext().getRequest().getServerName() + "/forum", "controlpanelconfig": "EnableForum"}, 
-	{"title": "Sponsors", "link": "/sponsors.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage('sponsors'), "link": "/sponsors.xsp", "controlpanelconfig": null}, 
 	{"title": "FAQ", "link": "/faqs.xsp", "controlpanelconfig": null}, 
-	{"title": "Contact Us", "link": "/contact.xsp", "controlpanelconfig": null}
+	{"title": libraryMessage('contactus'), "link": "/contact.xsp", "controlpanelconfig": null}
 ];
 
 
@@ -198,3 +235,4 @@ function $A( object ){
 	 // Return array with object as first item
 	 return [ object ];
 }
+

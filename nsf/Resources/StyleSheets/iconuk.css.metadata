@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="42e" sequence="3" unid="0A72A02F151EAC23C1257D5D0067337E">
+<created><datetime dst="true">20140924T204713,90+02</datetime></created>
+<modified><datetime dst="true">20140924T204714,31+02</datetime></modified>
+<revised><datetime dst="true">20140924T204714,30+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140924T204714,30+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140924T204713,90+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name="$TITLE"><text>iconuk.css</text></item>
+<item name="$MimeType"><text>text/css</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+<item name="$Flags"><text>34C=Q</text></item>
+
+
+<item name="$FileNames" sign="true"><text>iconuk.css</text></item>
+<item name="$MimeCharSet"><text>UTF-8</text></item></note>
