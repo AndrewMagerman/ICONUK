@@ -24,7 +24,7 @@
 		src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]
 	-->
-	<xp:this.beforePageLoad><![CDATA[#{javascript:sessionScope.put("Language","de-CH")}]]></xp:this.beforePageLoad>
+
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container-fluid">

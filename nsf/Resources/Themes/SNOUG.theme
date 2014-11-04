@@ -51,4 +51,22 @@
 		</property>
 	</control>
 
+  	<control>
+		<name>LogoHomePage</name>
+		<property>
+			<name>value</name>
+			<value>snoug_homepage_250.png</value>
+		</property>
+		<property>
+			<name>height</name>
+			<value>69</value>
+		</property>
+		<property>
+			<name>width</name>
+			<value>250</value>
+		</property>	
+	</control>
+
+
+
 </theme>
