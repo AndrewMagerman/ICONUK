@@ -141,8 +141,10 @@ return out;}]]></xp:this.styleClass>
 						
 					<xp:text tagName="blockquote" id="computedField2"
 						escape="true">
-						<xp:this.value><![CDATA[#{javascript:var date = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 3);
-var time = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 4);
+						<xp:this.value><![CDATA[#{javascript:var date1 = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 3);
+var time1 = @DbLookup(@DbName(), "Sessions By Timeslot", sessiondoc.getColumnValue("UNID"), 4);
+var date = @If(@IsError(date1),"?",date1);
+var time = @If(@IsError(date1),"??:??",time1);
 var msg = libraryMessage('dayxaty');
 return I18n.format(msg, date, time) ; }]]></xp:this.value>
 					</xp:text>
