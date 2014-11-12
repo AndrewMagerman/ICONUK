@@ -222,6 +222,9 @@ var time = @If(@IsError(date1),"??:??",time1);
 var msg = libraryMessage('dayxaty');
 return I18n.format(msg, date, time) ; }]]></xp:this.value>
 					</xp:text>
+					
+					
+					
 					<p>
 						<xp:link
 							escape="true"
