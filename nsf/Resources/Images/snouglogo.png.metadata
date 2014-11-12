@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="42a" sequence="21" unid="DAB8734C3E0C71BEC1257D5D00609C51">
+<noteinfo noteid="42a" sequence="23" unid="DAB8734C3E0C71BEC1257D5D00609C51">
 <created><datetime dst="true">20140924T193514,73+02</datetime></created>
-<modified><datetime>20141105T095736,93+01</datetime></modified>
-<revised><datetime>20141105T095736,92+01</datetime></revised>
-<lastaccessed><datetime>20141105T095736,92+01</datetime></lastaccessed>
+<modified><datetime>20141105T165028,14+01</datetime></modified>
+<revised><datetime>20141105T165028,13+01</datetime></revised>
+<lastaccessed><datetime>20141105T165028,13+01</datetime></lastaccessed>
 <addedtofile><datetime dst="true">20140924T193514,93+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -13,9 +13,9 @@
 <item name="$ImagesHigh" sign="true"><number>1</number></item>
 <item name="$ImagesColorize" sign="true"><number>0</number></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
+<item name="$ImageNames" sign="true"><text>snouglogo.png</text></item>
 
 
 <item name="$MimeType" sign="true"><text>image/png</text></item>
-<item name="$FileModDT" sign="true"><datetime>20141105T095725,00+01</datetime></item>
-<item name="$Flags"><text>34CiQ</text></item>
-<item name="$ImageNames" sign="true"><text>snouglogo.png</text></item></note>
+<item name="$FileModDT" sign="true"><datetime>20141105T164945,00+01</datetime></item>
+<item name="$Flags"><text>34CiQ</text></item></note>

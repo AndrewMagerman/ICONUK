@@ -1,11 +1,11 @@
 
 	<!--
-		The default theme contents use theme inheritance. Application themes
-		can extend an existing global theme using the extends attribute.
-		Existing themes include the following options: 1. webstandard 2. oneui
-		3. notes
+		The default theme contents use theme inheritance. Application themes can extend an existing global theme using the extends attribute.
+		Existing themes include the following options: 1. webstandard 2. oneui 3. notes
 	-->
-<theme extends="blank" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<theme
+	extends="blank"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
 	<!--
 		Use this pattern to include resources (such as style sheets and
@@ -20,8 +20,7 @@
 		Use this pattern to define property name/value pairs for controls
 	-->
 	<!--
-		<control> <name>[Control Name]</name> <property> <name>[property
-		Name]</name> <value>[property Value]</value> </property> </control>
+		<control> <name>[Control Name]</name> <property> <name>[property Name]</name> <value>[property Value]</value> </property> </control>
 	-->
 	<control>
 		<name>LogoTopLeftFileName</name>
@@ -42,7 +41,6 @@
 			<value>"height: 20px;"</value>
 		</property>
 	</control>
-
 	<control>
 		<name>ThemeSpecificCss</name>
 		<property>
@@ -50,8 +48,7 @@
 			<value>snoug.css</value>
 		</property>
 	</control>
-
-  	<control>
+	<control>
 		<name>LogoHomePage</name>
 		<property>
 			<name>value</name>
@@ -64,9 +61,34 @@
 		<property>
 			<name>width</name>
 			<value>250</value>
-		</property>	
+		</property>
 	</control>
-
-
-
+	<control>
+		<name>apple-touch-icon-57</name>
+		<property>
+			<name>href</name>
+			<value>apple-touch-icon-snoug-57.png</value>
+		</property>
+	</control>
+	<control>
+		<name>apple-touch-icon-72</name>
+		<property>
+			<name>href</name>
+			<value>apple-touch-icon-snoug-72.png</value>
+		</property>
+	</control>
+	<control>
+		<name>apple-touch-icon-114</name>
+		<property>
+			<name>value</name>
+			<value>apple-touch-icon-snoug-114.png</value>
+		</property>
+	</control>
+	<control>
+		<name>apple-touch-icon-144</name>
+		<property>
+			<name>value</name>
+			<value>apple-touch-icon-snoug-144.png</value>
+		</property>
+	</control>
 </theme>
