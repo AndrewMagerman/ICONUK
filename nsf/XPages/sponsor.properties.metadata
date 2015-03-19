@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="586" sequence="2" unid="63567B8C2C16E663C1257D5E00306C2F">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.1" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="586" sequence="8" unid="63567B8C2C16E663C1257D5E00306C2F">
 <created><datetime dst="true">20140925T104854,23+02</datetime></created>
-<modified><datetime dst="true">20140925T104854,42+02</datetime></modified>
-<revised><datetime dst="true">20140925T104854,41+02</datetime></revised>
-<lastaccessed><datetime dst="true">20140925T104854,41+02</datetime></lastaccessed>
+<modified><datetime>20150319T125123,17+01</datetime></modified>
+<revised><datetime>20150319T125123,16+01</datetime></revised>
+<lastaccessed><datetime>20150319T125123,16+01</datetime></lastaccessed>
 <addedtofile><datetime dst="true">20140925T104854,24+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>

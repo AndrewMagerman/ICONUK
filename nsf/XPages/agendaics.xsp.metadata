@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1b2" sequence="16" unid="4B656A1A20DBA5B3C1257D5D005B29FB">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.1" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1b2" sequence="28" unid="4B656A1A20DBA5B3C1257D5D005B29FB">
 <created><datetime dst="true">20140924T183545,23+02</datetime></created>
-<modified><datetime dst="true">20140925T104916,65+02</datetime></modified>
-<revised><datetime dst="true">20140925T104916,64+02</datetime></revised>
-<lastaccessed><datetime dst="true">20140925T104916,64+02</datetime></lastaccessed>
+<modified><datetime>20150319T125324,30+01</datetime></modified>
+<revised><datetime>20150319T125324,29+01</datetime></revised>
+<lastaccessed><datetime>20150319T125324,29+01</datetime></lastaccessed>
 <addedtofile><datetime dst="true">20140924T183545,22+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -12,8 +12,8 @@
 
 
 <item name="$FileNames" sign="true"><text>agendaics.xsp</text></item>
-
 <item name="$DesignerVersion"><text>8.5</text></item>
+
 
 
 

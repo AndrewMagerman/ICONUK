@@ -5,7 +5,9 @@
  */
 function registerNewUser(firstname, lastname, email, password){
 	var dbNab:NotesDatabase = sessionAsSigner.getDatabase(database.getServer(), controlpanelBean.getRegistrationNAB());
-	var nname = session.createName(firstname + " " + lastname + "/" + makeOrganization(email));
+
+
+var nname = session.createName(firstname + " " + lastname + "/" + makeOrganization(email));
 	if (addUserToGroup(nname)){
 		dbNab.setDelayUpdates(false);
 		
@@ -50,8 +52,8 @@ function registerNewUser(firstname, lastname, email, password){
  * Function which adds the new user name to the ACL group specified in Control Panel
  */
 var addUserToGroup = function(nname){
-	var group = controlpanelBean.getRegistrationUsersGroup();
-	var dbMainNab = sessionAsSigner.getDatabase(database.getServer(), "names.nsf");
+	var group = controlpanelBean.getRegistrationUsersGroup();	
+	var dbMainNab = sessionAsSigner.getDatabase(database.getServer(), controlpanelBean.getRegistrationNAB());
 	var groups = dbMainNab.getView("Groups");
 	var docGroup = groups.getDocumentByKey(group, true);
 	
