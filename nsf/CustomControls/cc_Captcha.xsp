@@ -100,6 +100,8 @@ sessionScope.put("ccCaptchaText", correctText);}]]></xp:this.action>
 		<xp:message
 			id="message1"
 			for="inputCaptcha"
-			rendered="#{javascript:compositeData.captchaShowInputValidationMessage}"></xp:message>
+			rendered="#{javascript:compositeData.captchaShowInputValidationMessage}"
+			styleClass="alert alert-error">
+		</xp:message>
 	</xp:panel>
 </xp:view>
