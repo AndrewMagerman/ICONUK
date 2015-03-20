@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+			<!--
+		Copyright IBM Corp. 2006, 2009 All Rights Reserved.
+	-->
+	
+											<xp:this.data>
+													<xp:dominoView
+																var="view1" viewName="comments">
+													</xp:dominoView>
+										</xp:this.data>
+
+			<div class="lotusFrame">
+								<xp:panel>
+															<h1> This is the Xpages Captcha Custom control DEMO</h1>
+
+								</xp:panel>
+
+						<div id="lotusMain" class="lotusMain">
+									<div id="lotusColLeft" class="lotusColLeft">
+										<xp:button
+													value="Add a new comment" id="button1">
+										<xp:eventHandler event="onclick" submit="true" refreshMode="complete">
+													<xp:this.action>
+																<xp:openPage
+																			name="/xpNewComment.xsp">
+																</xp:openPage>
+													</xp:this.action></xp:eventHandler></xp:button>
+									</div>
+									<!--end lotusColLeft-->
+									<div id="lotusColRight" class="lotusColRight">
+			
+									</div>
+									<!--end lotusColRight-->
+									<div id="lotusContent" class="lotusContent lotusForm">
+									<h2>
+									  This demo will give you the impression on how the captcha custom control can work.
+									  Use the 'Add comment' button to add a anonymous comment. 
+									  The Captcha control will be present.
+									  
+									  Note: this does not work in XPiNC! (but do you need it?)
+									 </h2> 
+
+
+									<xp:repeat id="repeat1" rows="100"
+												value="#{javascript:view1.getAllEntries()}"
+												var="rowEntry">
+												<xp:panel>
+												<xp:this.data>
+															<xp:dominoDocument
+																		var="document1" formName="frmComment"
+																		action="openDocument"
+																		documentId="#{javascript:rowEntry.getDocument().getNoteID()}">
+															</xp:dominoDocument>
+												</xp:this.data>
+												
+												<xp:label id="label1">
+															<xp:this.value><![CDATA[#{javascript:document1.getItemValueString("Name")}]]></xp:this.value>
+												</xp:label>&#160;&#160;
+												<xp:label value="|"
+															id="label2">
+												</xp:label>&#160;&#160;&#160;
+												<xp:link escape="true"
+															id="link1" text="Website">
+												<xp:eventHandler
+															event="onclick" submit="false">
+															<xp:this.script><![CDATA[location.replace='#{javascript:document1.getItemValueString("Website")}';]]></xp:this.script>
+												</xp:eventHandler></xp:link>
+
+						
+												<xp:panel
+															style="border-color:rgb(0,0,0);border-style:solid;border-width:1px">
+															<xp:inputRichText
+																		id="inputRichText1"
+																		style="width:439.0px;height:108.0px"
+																		value="#{document1.Comment}">
+															</xp:inputRichText>
+												</xp:panel>
+												</xp:panel>
+																		<xp:br></xp:br>
+												<xp:br></xp:br>
+									</xp:repeat>
+
+									</div>
+									<!--end lotusContent-->
+						</div>
+						<!--end lotusMain-->
+						<!--start lotusFooter-->
+
+						<!--end lotusFooter-->
+			</div>
+			<!--end frame-->
+</xp:view>

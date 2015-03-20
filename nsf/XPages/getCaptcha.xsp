@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" rendered="false">
+			This Xpage wil render a Captcha image. You will need to set
+			your Image control to the url of this Xpage.
+			<xp:this.beforeRenderResponse><![CDATA[#{javascript:try{
+
+	var externalContext = facesContext.getExternalContext(); 
+	var response = externalContext.getResponse(); 
+	var outputStream = response.getOutputStream(); 
+	
+		
+	//setting response headers so the browser knows about the image
+	response.setContentType("image/jpeg"); // content type of data, for other binary see mime types or put "application/octet-stream"
+	response.setHeader("Cache-Control", "no-cache");
+	response.setDateHeader("Expires", -1);
+	
+	
+	sessionScope.get("ccCaptcha").getImageInResponse(outputStream, sessionScope.get("ccCaptchaText"));
+	
+	facesContext.responseComplete();
+
+} catch (e) {	
+	response.sendError(400, e.toString());	
+	facesContext.responseComplete();
+	return;
+}
+}]]></xp:this.beforeRenderResponse></xp:view>

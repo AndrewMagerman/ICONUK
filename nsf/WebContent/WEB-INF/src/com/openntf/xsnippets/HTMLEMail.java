@@ -1,4 +1,5 @@
 package com.openntf.xsnippets;
+
 /**
  * Copied from XSnippets
  * http://openntf.org/XSnippets.nsf/snippet.xsp?id=emailbean-send-dominodocument-html-emails-cw-embedded-images-attachments-custom-headerfooter
@@ -60,8 +61,8 @@ public class HTMLEMail implements Serializable {
 
 	public static HTMLEMail get() {
 		FacesContext context = FacesContext.getCurrentInstance();
-		HTMLEMail bean = (HTMLEMail) context.getApplication().getVariableResolver()
-				.resolveVariable(context, BEAN_NAME);
+		HTMLEMail bean = (HTMLEMail) context.getApplication()
+				.getVariableResolver().resolveVariable(context, BEAN_NAME);
 		return bean;
 	}
 
@@ -321,7 +322,7 @@ public class HTMLEMail implements Serializable {
 						}
 
 						if (null != this.document) { // UK: 25.04.2012 added
-						// add attachments....
+							// add attachments....
 							final List<FileRowData> attachments = this
 									.getDocument().getAttachmentList(
 											this.getFieldName());
@@ -396,9 +397,13 @@ public class HTMLEMail implements Serializable {
 						}
 					}
 				}
-				try{
+				try {
 					emailDocument.send();
-				}catch(Exception e){
+				} catch (Exception e) {
+					if (this.isDebugMode()) {
+						System.out
+								.println("Sending failed (emailDocument.send() failed)");
+					}
 					e.printStackTrace();
 				}
 				session.setConvertMime(true);

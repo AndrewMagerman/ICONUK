@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+			<!--
+		Copyright IBM Corp. 2006, 2009 All Rights Reserved.
+	-->
+
+			<div class="lotusFrame">
+							<xp:panel>
+															<h1> This is the Xpages Captcha Custom control DEMO</h1>
+
+												</xp:panel>
+
+						<div id="lotusMain" class="lotusMain">
+									<div id="lotusColLeft" class="lotusColLeft">
+
+									</div>
+									<!--end lotusColLeft-->
+									<div id="lotusColRight" class="lotusColRight">
+					
+									</div>
+									<!--end lotusColRight-->
+									<div id="lotusContent" class="lotusContent lotusForm">
+													<h2>
+									  This demo will give you the impression on how the captcha custom control can work.
+									  Use the 'Add comment' button to add a anonymous comment. 
+									  The Captcha control will be present.
+									  
+									  Note: this does not work in XPiNC! (but do you need it?)
+									 </h2> 
+									
+												<xp:panel>
+
+
+															<xp:this.data>
+																		<xp:dominoDocument var="document1"
+																					formName="frmComment">
+																		</xp:dominoDocument>
+															</xp:this.data>
+															<xp:table>
+																		<xp:tr>
+																					<xp:td>
+																								<xp:label value="Name:" id="name_Label1"
+																											for="name1">
+																								</xp:label>
+																					</xp:td>
+																					<xp:td>
+																								<xp:inputText
+																											value="#{document1.Name}" id="name1"
+																											required="true">
+																								<xp:this.validators>
+																											<xp:validateRequired
+																														message="Your name is required.">
+																											</xp:validateRequired>
+																								</xp:this.validators></xp:inputText>
+																					</xp:td>
+																		</xp:tr>
+																		<xp:tr>
+																					<xp:td>
+																								<xp:label value="Website:" id="website_Label1"
+																											for="website1">
+																								</xp:label>
+																					</xp:td>
+																					<xp:td>
+																								<xp:inputText value="#{document1.Website}"
+																											id="website1">
+																								</xp:inputText>
+																					</xp:td>
+																		</xp:tr>
+																		<xp:tr>
+																					<xp:td>
+																								<xp:label value="Comment:" id="comment_Label1"
+																											for="comment1">
+																								</xp:label>
+																					</xp:td>
+																					<xp:td>
+																								<xp:inputRichText value="#{document1.Comment}"
+																											id="comment1">
+																								</xp:inputRichText>
+																					</xp:td>
+																		</xp:tr>
+																		<xp:tr>
+																					<xp:td></xp:td>
+																					<xp:td>
+																								<xc:cc_Captcha
+																											border="yes" borderColor="black"
+																											borderThickness="1" imageWidth="300"
+																											imageHeight="75"
+																											characters="abcde2345678gfynmnpwx"
+																											textLength="5" fontFamily="Arial,Courier"
+																											fontColor="255,168,0" fontSize="40"
+																											fontSpace="7" noiseColor="black"
+																											backgroundColorStart="192,192,192"
+																											backgroundColorEnd="white"
+																											captchaReloadAlt="Click to regenerate a new captcha image"
+																											captchaWrongInputMessage="Invalid code! Please try again."
+																											captchaShowInputbox="true"
+																											captchaInputRequiredMessage="Please type the letters in the image into the box. "
+																											captchaShowInputValidationMessage="false">
+																											<xp:this.facets>
+																														<xp:label
+																																	value="Captcha security" id="label2"
+																																	xp:key="aboveCaptchaArea"
+																																	style="font-size:11pt;font-weight:bold">
+																														</xp:label>
+																														<xp:label
+																																	value="please enter the above text in this box"
+																																	id="label1"
+																																	xp:key="belowCaptchaArea">
+																														</xp:label>
+																											</xp:this.facets>
+																								</xc:cc_Captcha>
+																					</xp:td>
+																		</xp:tr>
+																		<xp:tr>
+																					<xp:td></xp:td>
+																					<xp:td>
+																								<xp:messages layout="table" style="color:red"
+																											id="messages1">
+																								</xp:messages>
+																					</xp:td>
+																		</xp:tr>
+																		<xp:tr>
+																					<xp:td></xp:td>
+																					<xp:td>
+																								<xp:button value="Save comment" id="button1">
+																											
+																								<xp:eventHandler event="onclick" submit="true" refreshMode="complete" immediate="false" save="true">
+																											<xp:this.action>
+																														<xp:openPage
+																																	name="/xpDemo.xsp">
+																														</xp:openPage>
+																											</xp:this.action></xp:eventHandler></xp:button>
+																					</xp:td>
+																		</xp:tr>
+															</xp:table>
+
+
+
+
+
+												</xp:panel>
+									</div>
+									<!--end lotusContent-->
+						</div>
+						<!--end lotusMain-->
+						<!--start lotusFooter-->
+
+						<!--end lotusFooter-->
+			</div>
+			<!--end frame-->
+</xp:view>

@@ -9,6 +9,7 @@
 		defaultCollapsed="false"
 		collapseTo="left">
 	</debug:toolbar>
+
 	<xp:this.resources>
 		<xp:metaData
 			name="charset"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.1" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="8da" sequence="2" unid="947307536CB179A6C1257E0E0033BE35">
+<created><datetime>20150320T102510,29+01</datetime></created>
+<modified><datetime>20150320T102510,53+01</datetime></modified>
+<revised><datetime>20150320T102510,52+01</datetime></revised>
+<lastaccessed><datetime>20150320T102510,52+01</datetime></lastaccessed>
+<addedtofile><datetime>20150320T102510,29+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>getCaptcha.properties</text></item>
+
+
+<item name="$FileNames" sign="true"><text>getCaptcha.properties</text></item></note>

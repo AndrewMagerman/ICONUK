@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:callback
+		facetName="aboveCaptchaArea"
+		id="aboveCaptchaArea">
+	</xp:callback>
+	<xp:this.beforePageLoad><![CDATA[#{javascript:var cap:org.openntf.xpagescaptcha.Captcha;
+var mapping:java.util.HashMap = new java.util.HashMap();
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BORDER, compositeData.border)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BORDER_COLOR, compositeData.borderColor)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BORDER_THICKNESS, compositeData.borderThickness)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_IMAGE_WIDTH, compositeData.imageWidth)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_IMAGE_HEIGHT, compositeData.imageHeight)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_CHAR_STRING, compositeData.characters)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_CHAR_LENGTH, compositeData.textLength)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_FONT_NAMES, compositeData.fontFamily)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_FONT_COLOR, compositeData.fontColor)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_FONT_SIZE, compositeData.fontSize)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_CHAR_SPACE, compositeData.fontSpace)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_NOISE_COLOR, compositeData.noiseColor)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BACKGROUND_CLR_FROM, compositeData.backgroundColorStart)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BACKGROUND_CLR_TO, compositeData.backgroundColorEnd)
+
+
+cap = new org.openntf.xpagescaptcha.Captcha(mapping);
+var correctText = cap.createText();
+
+// now save the captcha object and the correct text in the sessionScope
+sessionScope.put("ccCaptcha", cap);
+sessionScope.put("ccCaptchaText", correctText);}]]></xp:this.beforePageLoad>
+	<xp:panel
+		id="pnlCaptcha">
+		<xp:link
+			escape="true"
+			text=""
+			id="link1"
+			title="#{javascript:compositeData.captchaReloadAlt}">
+			<xp:image
+				id="imgCaptcha"
+				alt="#{javascript:compositeData.captchaReloadAlt}">
+				<xp:this.url><![CDATA[#{javascript:// we add a unique key because the partial refresh must re-retrieve the image when clicking on the image
+"/getCaptcha.xsp?" + Math.floor(Math.random()*100)}]]></xp:this.url>
+			</xp:image>
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="partial"
+				refreshId="pnlCaptcha"
+				immediate="true">
+				<xp:this.action><![CDATA[#{javascript:var cap:org.openntf.xpagescaptcha.Captcha;
+var mapping:java.util.HashMap = new java.util.HashMap();
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BORDER, compositeData.border)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BORDER_COLOR, compositeData.borderColor)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BORDER_THICKNESS, compositeData.borderThickness)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_IMAGE_WIDTH, compositeData.imageWidth)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_IMAGE_HEIGHT, compositeData.imageHeight)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_CHAR_STRING, compositeData.characters)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_CHAR_LENGTH, compositeData.textLength)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_FONT_NAMES, compositeData.fontFamily)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_FONT_COLOR, compositeData.fontColor)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_FONT_SIZE, compositeData.fontSize)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_TEXTPRODUCER_CHAR_SPACE, compositeData.fontSpace)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_NOISE_COLOR, compositeData.noiseColor)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BACKGROUND_CLR_FROM, compositeData.backgroundColorStart)
+mapping.put(com.google.code.kaptcha.Constants.KAPTCHA_BACKGROUND_CLR_TO, compositeData.backgroundColorEnd)
+
+
+cap = new org.openntf.xpagescaptcha.Captcha(mapping);
+var correctText = cap.createText();
+
+// now save the captcha object and the correct text in the sessionScope
+sessionScope.put("ccCaptcha", cap);
+sessionScope.put("ccCaptchaText", correctText);}]]></xp:this.action>
+			</xp:eventHandler>
+		</xp:link>
+	</xp:panel>
+	<xp:br></xp:br>
+	<xp:callback
+		facetName="belowCaptchaArea"
+		id="belowCaptchaArea"></xp:callback>
+	<xp:panel
+		rendered="#{javascript:compositeData.captchaShowInputbox}"
+		id="pnlInputboxHolder">
+		<xp:br></xp:br>
+		<xp:inputText
+			id="inputCaptcha"
+			value="#{requestScope.ccCaptchaAnswer}"
+			required="true">
+			<xp:this.validators>
+				<xp:validateExpression
+					message="#{javascript:compositeData.captchaWrongInputMessage}">
+					<xp:this.expression><![CDATA[#{javascript:@LowerCase(value) == @LowerCase(sessionScope.get("ccCaptchaText"))}]]></xp:this.expression>
+				</xp:validateExpression>
+				<xp:validateRequired
+					message="#{javascript:compositeData.captchaInputRequiredMessage}">
+				</xp:validateRequired>
+			</xp:this.validators>
+		</xp:inputText>
+		<xp:message
+			id="message1"
+			for="inputCaptcha"
+			rendered="#{javascript:compositeData.captchaShowInputValidationMessage}"></xp:message>
+	</xp:panel>
+</xp:view>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
+    <default-prefix>xc</default-prefix>
+  </faces-config-extension>
+  <composite-component>
+    <component-type>cc_Captcha</component-type>
+    <composite-name>cc_Captcha</composite-name>
+    <composite-file>/cc_Captcha.xsp</composite-file>
+    <composite-extension>
+      <designer-extension>
+        <in-palette>true</in-palette>
+        <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
+&lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
+&lt;xp:panel&gt;&lt;xp:label value="Xpages Captcha Custom Control v1.0 by Ferry Kranenburg" id="label3" style="font-weight:bold;font-size:10pt"&gt;&lt;/xp:label&gt;&lt;/xp:panel&gt;&#xd;
+&lt;xp:br/&gt;&#xd;
+&lt;xp:callback facetName="aboveCaptchaArea" id="aboveCaptchaArea"&gt;&lt;/xp:callback&gt;&#xd;
+&lt;xp:br/&gt;&#xd;
+&lt;xp:callback facetName="belowCaptchaArea" id="belowCaptchaArea"&gt;&lt;/xp:callback&gt;&#xd;
+&lt;xp:br/&gt;&#xd;
+			&#xd;
+&#xd;
+&lt;/xp:view&gt;</render-markup>
+      </designer-extension>
+    </composite-extension>
+    <property>
+      <property-name>border</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.border</display-name>
+      <property-extension>
+        <designer-extension>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>yes&#xd;
+no</editor-parameter>
+          <default-value>yes</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>Show a border around the captcha image.</description>
+    </property>
+    <property>
+      <property-name>borderColor</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <required>true</required>
+        <designer-extension>
+          <default-value>black</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>kaptcha.border.color</display-name>
+      <description>Color of the border.&#xd;
+Use a comma separated string for RGB&#xd;
+&#xd;
+e.g. "255,168,0"&#xd;
+</description>
+    </property>
+    <property>
+      <property-name>borderThickness</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.border.thickness</display-name>
+      <description>Thickness of the border around captcha. Legal values are &gt; 0.&#xd;
+&#xd;
+e.g. "1"</description>
+      <property-extension>
+        <designer-extension>
+          <default-value>1</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>imageWidth</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.image.width</display-name>
+      <property-extension>
+        <required>true</required>
+        <designer-extension>
+          <default-value>300</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>Width in pixels of the captcha image. &#xd;
+&#xd;
+e.g. "300"</description>
+    </property>
+    <property>
+      <property-name>imageHeight</property-name>
+      <property-class>string</property-class>
+      <description>Height in pixels of the captcha image.&#xd;
+&#xd;
+e.g. "75"</description>
+      <property-extension>
+        <designer-extension>
+          <default-value>75</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <display-name>kaptcha.image.height</display-name>
+    </property>
+    <property>
+      <property-name>characters</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.textproducer.char.string</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>abcde2345678gfynmnpwx</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>The characters that will create the captcha.&#xd;
+&#xd;
+e.g. "abcde2345678gfynmnpwx"&#xd;
+&#xd;
+&#xd;
+Characters like i, 1 and l are not a great idea as they become unreadable!</description>
+    </property>
+    <property>
+      <property-name>textLength</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.textproducer.char.length</display-name>
+      <description>The number of characters to display. &#xd;
+&#xd;
+e.g. "5"</description>
+      <property-extension>
+        <designer-extension>
+          <default-value>5</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>fontFamily</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <required>true</required>
+        <designer-extension>
+          <default-value>Arial,Courier</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>kaptcha.textproducer.font.names</display-name>
+      <description>A list of comma separated font names to use in the captcha.&#xd;
+&#xd;
+e.g. "Arial, Courier"</description>
+    </property>
+    <property>
+      <property-name>fontColor</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <designer-extension>
+          <editor/>
+          <default-value>255,168,0</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>The color to use for the font. &#xd;
+Use a comma separated string for RGB&#xd;
+&#xd;
+e.g. "255,168,0"&#xd;
+&#xd;
+</description>
+      <display-name>kaptcha.textproducer.font.color</display-name>
+    </property>
+    <property>
+      <property-name>fontSize</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.textproducer.font.size</display-name>
+      <property-extension>
+        <required>true</required>
+        <designer-extension>
+          <default-value>40</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>The size of the font to use. This must be in pixels&#xd;
+&#xd;
+e.g. "40"</description>
+    </property>
+    <property>
+      <property-name>fontSpace</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.textproducer.char.space</display-name>
+      <description>The space between the characters.&#xd;
+&#xd;
+e.g. "7" </description>
+      <property-extension>
+        <designer-extension>
+          <default-value>7</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>noiseColor</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.noise.color</display-name>
+      <description>The noise color. You may use names for the color, like 'black' or 'red'&#xd;
+Use a comma separated string for RGB&#xd;
+&#xd;
+e.g. "255,168,0"&#xd;
+</description>
+      <property-extension>
+        <designer-extension>
+          <default-value>black</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>backgroundColorStart</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.background.clear.from </display-name>
+      <description>Starting background color. You may use names for the color, like 'black' or 'red'&#xd;
+Use a comma separated string for RGB&#xd;
+&#xd;
+e.g. "255,168,0"</description>
+      <property-extension>
+        <designer-extension>
+          <default-value>192,192,192</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>backgroundColorEnd</property-name>
+      <property-class>string</property-class>
+      <display-name>kaptcha.background.clear.to</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>white</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>Ending background color. You may use names for the color, like 'black' or 'red'&#xd;
+Use a comma separated string for RGB&#xd;
+&#xd;
+e.g. "255,168,0"</description>
+    </property>
+    <property>
+      <property-name>captchaReloadAlt</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <localizable>true</localizable>
+        <designer-extension>
+          <default-value>Click to regenerate a new captcha image</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>tooltip text for 'regenerating' a captcha</display-name>
+      <description>Enter a text for the action where users may 'regenerate' the image when they can not read it.&#xd;
+&#xd;
+e.g. "Click to regenerate a new captcha image' </description>
+    </property>
+    <property>
+      <property-name>captchaWrongInputMessage</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>Invalid code! Please try again.</default-value>
+        </designer-extension>
+        <localizable>true</localizable>
+        <required>true</required>
+      </property-extension>
+      <description>The validation message to the user when the input wrong.</description>
+    </property>
+    <property>
+      <property-name>captchaShowInputbox</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>When not showing the inputbox, you could add an inputbox elsewhere on your Xpage.&#xd;
+For validation use a validationExpression with the value '@LowerCase(value) == @LowerCase(sessionScope.get("ccCaptchaText"))'.&#xd;
+The correct Captcha anwer is stored in the sessionScope.&#xd;
+You could store the answer in the requestScope.</description>
+    </property>
+    <property>
+      <property-name>captchaInputRequiredMessage</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <localizable>true</localizable>
+        <designer-extension>
+          <default-value>Please type the letters in the image into the box. </default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>The message when a user forgets to type the letters from the image into the textbox.</description>
+    </property>
+    <property>
+      <property-name>captchaShowInputValidationMessage</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>When also showing the inputbox, you can turn of the validation message for the input control.&#xd;
+You can turn this control of when you have a 'Display Errors' control anywhere else on your Xpage.&#xd;
+&#xd;
+Turning this off and no Display Errors control on your Xpage will result in no Captcha validation!</description>
+    </property>
+  </composite-component>
+</faces-config>
