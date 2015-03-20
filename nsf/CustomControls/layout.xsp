@@ -239,7 +239,7 @@
 							<xp:this.styleClass><![CDATA[#{javascript:if (getCurrentXPage() == "/admin.xsp" || getCurrentXPage() == "/files.xsp" || getCurrentXPage() == "/attendees.xsp"){
 	return "active";
 }}]]></xp:this.styleClass>
-							<xp:this.rendered><![CDATA[#{javascript:context.getUser().getRoles().contains("[Admin]")}]]></xp:this.rendered>
+							<xp:this.rendered><![CDATA[#{javascript:database.queryAccessRoles(session.getEffectiveUserName()).contains('[Admin]')}]]></xp:this.rendered>
 							<xp:link
 								id="link1"
 								text="Admin"
