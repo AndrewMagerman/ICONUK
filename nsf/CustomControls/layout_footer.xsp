@@ -43,6 +43,15 @@ if (level == "1"){
 		</xp:span>
 	</xp:repeat>
 	<p>
+	here
+			<xp:text
+			escape="true"
+			id="computedField2"
+			value="#{javascript:database.getServer()}">
+		</xp:text>
+	</p>
+	
+	<p>
 		&#169; ICON UK 2014 | Site created by&#160;
 		<a href="http://londc.com" target="newwin">
 			London Developer Co-op
