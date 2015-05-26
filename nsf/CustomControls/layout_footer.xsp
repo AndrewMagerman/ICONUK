@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
 	xmlns:xc="http://www.ibm.com/xsp/custom">
-
 	<xp:this.data>
-		<xp:dominoView var="view1" viewName="Sponsors By Level"></xp:dominoView>
+		<xp:dominoView
+			var="view1"
+			viewName="Sponsors By Level"></xp:dominoView>
 	</xp:this.data>
 	<xp:this.resources>
-		<xp:script src="/xpSponsors.jss" clientSide="false"></xp:script>
+		<xp:script
+			src="/xpSponsors.jss"
+			clientSide="false"></xp:script>
 	</xp:this.resources>
-	<xp:repeat id="repeat1" rows="999" value="#{view1}" var="sponsordoc"
-		indexVar="sponsorindex" disableOutputTag="true">
-		<xp:panel id="category"
+	<xp:repeat
+		id="repeat1"
+		rows="999"
+		value="#{view1}"
+		var="sponsordoc"
+		indexVar="sponsorindex"
+		disableOutputTag="true">
+		<xp:panel
+			id="category"
 			rendered="#{javascript:sponsordoc.isCategory();}"
 			styleClass="well well-small">
-			<xp:text escape="true" id="computedField1" tagName="p">
-
+			<xp:text
+				escape="true"
+				id="computedField1"
+				tagName="p">
 				<xp:this.value><![CDATA[#{javascript:var level = sponsordoc.getColumnValue("Level");
 if (level == "1"){
 	return "Platinum";
@@ -27,34 +39,30 @@ if (level == "1"){
 }}]]></xp:this.value>
 			</xp:text>
 		</xp:panel>
-		<xp:span style="padding: 3px;"
+		<xp:span
+			style="padding: 3px;"
 			rendered="#{javascript:!sponsordoc.isCategory();}">
-			<xp:panel id="footerlink" tagName="a">
+			<xp:panel
+				id="footerlink"
+				tagName="a">
 				<xp:this.attrs>
-					<xp:attr name="href">
+					<xp:attr
+						name="href">
 						<xp:this.value><![CDATA[#{javascript:sponsordoc.getColumnValue("URL");}]]></xp:this.value>
 					</xp:attr>
 				</xp:this.attrs>
 				<xp:image
 					url="#{javascript:getSponsorPhoto(sponsordoc.getDocument());}"
-					id="image1" styleClass="img-rounded" style="max-width: 100px;">
+					id="image1"
+					styleClass="img-rounded"
+					style="max-width: 100px;">
 				</xp:image>
 			</xp:panel>
 		</xp:span>
 	</xp:repeat>
 	<p>
-	here
-			<xp:text
-			escape="true"
-			id="computedField2"
-			value="#{javascript:database.getServer()}">
-		</xp:text>
-	</p>
-	
-	<p>
-		&#169; ICON UK 2014 | Site created by&#160;
-		<a href="http://londc.com" target="newwin">
-			London Developer Co-op
-		</a>
+		&#169; ICON UK 2014 | Site created by&#160;<a
+			href="http://londc.com"
+			target="newwin"> London Developer Co-op </a>
 	</p>
 </xp:view>

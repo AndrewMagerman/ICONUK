@@ -146,6 +146,7 @@
 	<debug:toolbar
 		defaultCollapsed="false"
 		collapseTo="left">
+		<debug:this.rendered><![CDATA[${javascript:database.getServer()==="CN=sentis/O=magerman"}]]></debug:this.rendered>
 	</debug:toolbar>
 	<div
 		class="navbar navbar-inverse navbar-fixed-top">
@@ -300,8 +301,7 @@
 		</div><!--/row-->
 		<hr />
 		<footer>
-
-		<xc:layout_footer></xc:layout_footer>
+			<xc:layout_footer></xc:layout_footer>
 		</footer>
 	</div><!--/.fluid-container-->
 </xp:view>
