@@ -475,7 +475,7 @@ controlpanelBean.init();}]]></xp:this.script>
 							id="forgottenEmailBody_Label1"
 							for="forgottenEmailBody1">
 						</xp:label>
-					</xp:td>
+						<xp:br></xp:br>use Placeholder @code@ for code</xp:td>
 					<xp:td>
 						<xp:inputTextarea
 							value="#{document1.ForgottenEmailBody}"
