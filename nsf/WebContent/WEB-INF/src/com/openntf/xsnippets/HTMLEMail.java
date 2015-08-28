@@ -160,7 +160,8 @@ public class HTMLEMail implements Serializable {
 
 	private Session getCurrentSession() {
 		NotesContext nc = NotesContext.getCurrentUnchecked();
-		return (null != nc) ? nc.getCurrentSession() : null;
+		//return (null != nc) ? nc.getCurrentSession() : null;
+		return (null != nc) ? nc.getSessionAsSigner() : null;
 	}
 
 	// -------------------------------------------------------------------------
@@ -174,7 +175,8 @@ public class HTMLEMail implements Serializable {
 
 	public void send() throws NotesException, IOException, Exception {
 		Session session = getCurrentSession();
-		Database database = getCurrentDatabase();
+		//Database database = getCurrentDatabase();
+		Database database = session.getCurrentDatabase();
 		if (this.isDebugMode()) {
 			System.out.println("Started send()");
 		}
