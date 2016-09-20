@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
  replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='226' unid='92D2DE7FB06F063EC1257D5D005B2CA7' sequence='9'>
+<noteinfo noteid='226' unid='92D2DE7FB06F063EC1257D5D005B2CA7' sequence='12'>
 <created><datetime dst='true'>20140924T183552,07+02</datetime></created>
-<modified><datetime>20150320T194912,76+01</datetime></modified>
-<revised><datetime>20150320T194912,75+01</datetime></revised>
-<lastaccessed><datetime>20150320T194912,75+01</datetime></lastaccessed>
+<modified><datetime dst='true'>20160920T133906,54+02</datetime></modified>
+<revised><datetime dst='true'>20160920T133906,53+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160920T133906,53+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20140924T183552,07+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -13,37 +13,10 @@
 <rawitemdata type='4'>
 AQATsAbQGanfeD+tLABqeiWA
 </rawitemdata></item>
-<item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>All Documents</text></item>
-<item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
 TgACAAwAAgAkMWkAAwACAAwAAgAkMqQAAwAFACgAIwAFAAQAAgACAAkABABGb3JtJDEkMiRDb25m
 bGljdCRSRUYABAAEAAAACABmAAMA
 </formula></item>
-<item name='$Collation' summary='true'>
-<rawitemdata type='2'>
-EQABAABECGYHAAAEAEZvcm0=
-</rawitemdata></item>
-<item name='$Collation1' summary='true'>
-<rawitemdata type='2'>
-DwABAABEgGYAAAACACQx
-</rawitemdata></item>
-<item name='$Collation2' summary='true'>
-<rawitemdata type='2'>
-DwABAABEgGYAAAACACQy
-</rawitemdata></item>
-<item name='$ViewFormat' summary='true' sign='true'>
-<rawitemdata type='5'>
-AQADAAMACAAAAFZDAwAEAAQAAAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAQIADAAOAAAAUAAB
-AAAKAAAAAAAAAAAAAgIAAABWQwABAgANAA4AAABQAAEAAAoAAAAAAAAAAAACAgAAAEZvcm1Gb3Jt
-JDFEYXRlIENyZWF0ZWQOAAIADAACACQxaQADACQyRGF0ZSBNb2RpZmllZA4AAgAMAAIAJDKkAAMA
-JgABAAAAAQEACQEAAAoBAQ4KAAABAK0rAQABAAEAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA
-//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAA
-AAAAAABCABAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////AAEA////AAAAAQAAAAAA
-AQAAAAAAAQAAAAAAAAAIAAAAAAABAA==
-</rawitemdata></item>
-<item name='$Comment' sign='true'><text/></item>
 <item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
 <item name='$V5ACTIONS' sign='true'>
 <rawitemdata type='1'>
@@ -64,5 +37,33 @@ AAAAAAAAAENvcHkgYXMgRG9jdW1lbnQgX0xpbmsPAN58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAENv
 cHkgYXMgX1RhYmxlEADufL7/IAAAAAUAAACdAQAABgAAAAAAAABQX2FzdGURAP58vv8gAAAABQAA
 AJ0BAAAFAAAAAAAAAF9PcGVuABIADn2+/yIAAAAFAAAAnQEAAAgAAAAAAAAAQm9va21hcmsTAB59
 </rawitemdata></item>
-<item name='$Flags'><text>Y</text></item></note>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQADAAMAiAgAAFZDAwAEAAQAFgAAAFAAAQAACgABAAAIAAAAAAICAAAAVkMAAQIADAAOAAAAUAAB
+AAAKAAAAAAgAAAAAAgIAAABWQwABAgANAA4AAABQAAEAAAoAAAAACAAAAAACAgAAAEZvcm1Gb3Jt
+FgACABQABABGb3JtBQAEAEZvcm0DACQxRGF0ZSBDcmVhdGVkDgACAAwAAgAkMWkAAwAkMkRhdGUg
+TW9kaWZpZWQOAAIADAACACQypAADACYAAQAAAAEBAAkBAAAKAQEACgAALwCtKwkAAQABAAAAAAAA
+AAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAA
+AAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAA
+AAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAQgARAAAAAQD///8AAQD39/cAAQDh4eEAAAAAAAAA
+AAABAP///wABAP///wAAAAEAAAAAAAEAAAAAAAEAAAAAAAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>Y</text></item>
+<item name='$TITLE' sign='true'><text>All Documents</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+EQABAABECGYHAAAEAEZvcm0=
+</rawitemdata></item>
+<item name='$Collation1' summary='true'>
+<rawitemdata type='2'>
+DwABAABEgGYAAAACACQx
+</rawitemdata></item>
+<item name='$Collation2' summary='true'>
+<rawitemdata type='2'>
+DwABAABEgGYAAAACACQy
+</rawitemdata></item></note>
 

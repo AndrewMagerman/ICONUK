@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
  replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='1da' unid='45D9B5879EA132BAC1257D5D005B2B15' sequence='9'>
+<noteinfo noteid='1da' unid='45D9B5879EA132BAC1257D5D005B2B15' sequence='12'>
 <created><datetime dst='true'>20140924T183548,05+02</datetime></created>
-<modified><datetime>20150320T194945,98+01</datetime></modified>
-<revised><datetime>20150320T194945,97+01</datetime></revised>
-<lastaccessed><datetime>20150320T194945,97+01</datetime></lastaccessed>
+<modified><datetime dst='true'>20160920T133908,43+02</datetime></modified>
+<revised><datetime dst='true'>20160920T133908,42+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160920T133908,42+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20140924T183548,04+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -13,31 +13,10 @@
 <rawitemdata type='4'>
 AQATsAbQGanfeD+tLABqeiWA
 </rawitemdata></item>
-<item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>Sponsors By Level</text></item>
-<item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
 ZAAFADIALgAGAAUABAADAAUACQAEAExldmVsTmFtZVVSTEJsdXJiJENvbmZsaWN0JFJFRgQABAAA
 ACAABQAEAEZvcm0BAAcAU3BvbnNvcgAKAgQABAADAAcADAAFAAkzUzRTAA==
 </formula></item>
-<item name='$Collation' summary='true'>
-<rawitemdata type='2'>
-HQACAABECGYHAAAFAIBmAAUABABMZXZlbE5hbWU=
-</rawitemdata></item>
-<item name='$ViewFormat' summary='true' sign='true'>
-<rawitemdata type='5'>
-AQAEAAUACAAAAFZDAwAFAAUAAAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMBAAQABAAAAAAAUAAB
-AAAKAAAAAAAAAAAAAgIAAABWQwAAAwADAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAAFAAUA
-AAAAAFAAAQAACgAAAAAAAAAAAAICAAAATGV2ZWxMZXZlbE5hbWVOYW1lVVJMVVJMQmx1cmJCbHVy
-YiYAAQAAAAEBAAkBAAAKAQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA
-AP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAA
-AAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAEAAA
-AAEA////AAUA////AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAA
-AAAAAAgAAAAAAAEA
-</rawitemdata></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$Flags'><text>Y</text></item>
 <item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
@@ -64,5 +43,28 @@ BQAAAJ0BAAAEAAAAAAAAAENfdXQNAL58vv8gAAAABQAAAJ0BAAAFAAAAAAAAAF9Db3B5AA4Azny+
 nQEAAA4AAAAAAAAAQ29weSBhcyBfVGFibGUQAO58vv8gAAAABQAAAJ0BAAAGAAAAAAAAAFBfYXN0
 ZREA/ny+/yAAAAAFAAAAnQEAAAUAAAAAAAAAX09wZW4AEgAOfb7/IgAAAAUAAACdAQAACAAAAAAA
 AABCb29rbWFyaxMAHn0=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAUAiAgAAFZDAwAFAAUAGgAAAFAAAQAACgABAAAIAAAAAAICAAAAVkMBAAQABAAWAAAAUAAB
+AAAKAAAAAAgAAAAAAgIAAABWQwAAAwADABYAAABQAAEAAAoAAAAACAAAAAACAgAAAFZDAAAFAAUA
+GgAAAFAAAQAACgAAAAAIAAAAAAICAAAATGV2ZWxMZXZlbBoAAgAYAAUATGV2ZWwABQAFAExldmVs
+AAMATmFtZU5hbWUWAAIAFAAEAE5hbWUFAAQATmFtZQMAVVJMVVJMFgACABQAAwBVUkwABQADAFVS
+TAADAEJsdXJiQmx1cmIaAAIAGAAFAEJsdXJiAAUABQBCbHVyYgADACYAAQAAAAEBAAkBAAAKAQEA
+CgAALwCtKwkAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAA
+AAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABX
+QwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAA
+AAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAEQAAAAEA////AAEA9/f3AAEA4eHh
+AAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>Y</text></item>
+<item name='$TITLE' sign='true'><text>Sponsors By Level</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+HQACAABECGYHAAAFAIBmAAUABABMZXZlbE5hbWU=
 </rawitemdata></item></note>
 

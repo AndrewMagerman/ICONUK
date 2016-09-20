@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
  replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='1de' unid='BCF369D4888871C9C1257D5D005B2B29' sequence='9'>
+<noteinfo noteid='1de' unid='BCF369D4888871C9C1257D5D005B2B29' sequence='12'>
 <created><datetime dst='true'>20140924T183548,25+02</datetime></created>
-<modified><datetime>20150320T194944,98+01</datetime></modified>
-<revised><datetime>20150320T194944,97+01</datetime></revised>
-<lastaccessed><datetime>20150320T194944,97+01</datetime></lastaccessed>
+<modified><datetime dst='true'>20160920T133908,26+02</datetime></modified>
+<revised><datetime dst='true'>20160920T133908,25+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160920T133929,43+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20140924T183548,25+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -13,28 +13,10 @@
 <rawitemdata type='4'>
 AQATsAbQGanfeD+tLABqeiWA
 </rawitemdata></item>
-<item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>Speaker2 Bios</text></item>
-<item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
 XgAFACwAJwAEAAoABAAJAAQAUHJlc2VudGVyMkJpbzIkQ29uZmxpY3QkUkVGAAQABAAAACAABQAE
 AEZvcm0BAAcAU2Vzc2lvbgAKAgQABAADAAcADAAFAAkzUzRTAA==
 </formula></item>
-<item name='$Collation' summary='true'>
-<rawitemdata type='2'>
-FwABAABEmGYAAAAKAFByZXNlbnRlcjI=
-</rawitemdata></item>
-<item name='$ViewFormat' summary='true' sign='true'>
-<rawitemdata type='5'>
-AQACAA8ACAAAAFZDAAAKAAkAAAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAAQAAwAAAAAA1wAB
-AAAKAAAAAAAAAAAAAgIAAABQcmVzZW50ZXIyUHJlc2VudGVyQmlvMkJpbyYAAQAAAAEBAAkBAAAK
-AQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8A
-AAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAA
-AABCABAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////AAEA////AAAAAQAAAAAAAQAA
-AAAAAQAAAAAAAAAIAAAAAAABAA==
-</rawitemdata></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$Flags'><text>Y</text></item>
 <item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
@@ -61,5 +43,25 @@ BQAAAJ0BAAAEAAAAAAAAAENfdXQOAL58vv8gAAAABQAAAJ0BAAAFAAAAAAAAAF9Db3B5AA8Azny+
 nQEAAA4AAAAAAAAAQ29weSBhcyBfVGFibGURAO58vv8gAAAABQAAAJ0BAAAGAAAAAAAAAFBfYXN0
 ZRIA/ny+/yAAAAAFAAAAnQEAAAUAAAAAAAAAX09wZW4fEwAOfb7/IgAAAAUAAACdAQAACAAAAAAA
 AABCb29rbWFyaxQAHn0=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQACAA8AiAgAAFZDAAAKAAkAIgAAAFAAAQAACgABAAAIAAAAAAICAAAAVkMAAAQAAwAWAAAA1wAB
+AAAKAAAAAAgAAAAAAgIAAABQcmVzZW50ZXIyUHJlc2VudGVyIgACACAACgBQcmVzZW50ZXIyBQAK
+AFByZXNlbnRlcjIDAEJpbzJCaW8WAAIAFAAEAEJpbzIFAAQAQmlvMgMAJgABAAAAAQEACQEAAAoB
+AQAKAAAvAK0rCQABAAEAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAA
+AAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAA
+AEIAEQAAAAEA////AAEA9/f3AAEA4eHhAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAA
+AAABAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>Y</text></item>
+<item name='$TITLE' sign='true'><text>Speaker2 Bios</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+FwABAABEmGYAAAAKAFByZXNlbnRlcjI=
 </rawitemdata></item></note>
 

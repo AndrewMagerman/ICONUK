@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
  replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='20a' unid='C1815405A430F2C3C1257D5D005B2C15' sequence='9'>
+<noteinfo noteid='20a' unid='C1815405A430F2C3C1257D5D005B2C15' sequence='12'>
 <created><datetime dst='true'>20140924T183550,61+02</datetime></created>
-<modified><datetime>20150320T194922,40+01</datetime></modified>
-<revised><datetime>20150320T194922,39+01</datetime></revised>
-<lastaccessed><datetime>20150320T194922,39+01</datetime></lastaccessed>
+<modified><datetime dst='true'>20160920T133907,21+02</datetime></modified>
+<revised><datetime dst='true'>20160920T133907,20+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160920T133907,20+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20140924T183550,61+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
@@ -13,30 +13,11 @@
 <rawitemdata type='4'>
 AQATsAbQGanfeD+tLABqeiWA
 </rawitemdata></item>
-<item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>Files</text></item>
-<item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
 hgACAAwAAgAkMXMAAwACACoAAgAkMgEAAwAvMC8AkABWASICAQAHAC8kRklMRS8AIgJzACICAwAF
 ACIAHQAEAAIAAgAJAAQAJDEkMiRDb25mbGljdCRSRUYABAAEAAAAHAAFAAQARm9ybQEABABGaWxl
 CgIEAAQAAwAHAAwABQAJM1M0UwA=
 </formula></item>
-<item name='$Collation' summary='true'>
-<rawitemdata type='2'>
-DwABAABECGYAAAACACQx
-</rawitemdata></item>
-<item name='$ViewFormat' summary='true' sign='true'>
-<rawitemdata type='5'>
-AQACAAMACAAAAFZDAQACAAgADgAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAAIAAwBAAAAAUAAB
-AAAKAAAAAAAAAAAAAgIAAAAkMUZpbGVOYW1lDgACAAwAAgAkMXMAAwAkMlVSTEAAAgAqAAIAJDIB
-AAMALzAvAJAAVgEiAgEABwAvJEZJTEUvACICcwAiAgMABwAUAA0ACTFTMlM2UzdTOFM5UwAmAAEA
-AAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAA
-AAAAAAAAAAAAAAAAQgAQAAAAAQD///8ABQD///8AAQAAAAAAAAAAAAAAAAABAP///wABAP///wAA
-AAEAAAAAAAEAAAAAAAEAAAAAAAAACAAAAAAAAQA=
-</rawitemdata></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$Flags'><text>Y</text></item>
 <item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
@@ -63,5 +44,25 @@ ABYAAAAAAAAAQ29weSBhcyBEb2N1bWVudCBfTGluaw8A3ny+/ygAAAAFAAAAnQEAAA4AAAAAAAAA
 Q29weSBhcyBfVGFibGUQAO58vv8gAAAABQAAAJ0BAAAGAAAAAAAAAFBfYXN0ZREA/ny+/yAAAAAF
 AAAAnQEAAAUAAAAAAAAAX09wZW4AEgAOfb7/IgAAAAUAAACdAQAACAAAAAAAAABCb29rbWFyaxMA
 Hn0=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQACAAMAiAgAAFZDAQACAAgADgAAAFAAAQAACgABAAAIAAAAAAICAAAAVkMAAAIAAwBAAAAAUAAB
+AAAKAAAAAAgAAAAAAgIAAAAkMUZpbGVOYW1lDgACAAwAAgAkMXMAAwAkMlVSTEAAAgAqAAIAJDIB
+AAMALzAvAJAAVgEiAgEABwAvJEZJTEUvACICcwAiAgMABwAUAA0ACTFTMlM2UzdTOFM5UwAmAAEA
+AAABAQAJAQAACgEBAAoAAC8ArSsJAAEAAQAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAA
+AAAAAAAAAAAAAAAAQgARAAAAAQD///8AAQD39/cAAQDh4eEAAAAAAAAAAAABAP///wABAP///wAA
+AAEAAAAAAAEAAAAAAAEAAAAAAAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>Y</text></item>
+<item name='$TITLE' sign='true'><text>Files</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+DwABAABECGYAAAACACQx
 </rawitemdata></item></note>
 
