@@ -22,6 +22,12 @@
 	<!--
 		<control> <name>[Control Name]</name> <property> <name>[property Name]</name> <value>[property Value]</value> </property> </control>
 	-->
+	<resources> 
+        <metaData>
+            <name>google-site-verification</name>
+            <content>cuYe7Nyby_8NSagblpQD3s4T-VKmCKdedj7Heq2L1y8</content>
+        </metaData>
+    </resources>
 	<control>
 		<name>LogoTopLeftFileName</name>
 		<property>
