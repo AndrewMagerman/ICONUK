@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
  replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='202' unid='5076BB439333E361C1257D5D005B2BE9' sequence='14'>
-<created><datetime dst='true'>20140924T183550,17+02</datetime></created>
-<modified><datetime dst='true'>20160920T181402,83+02</datetime></modified>
-<revised><datetime dst='true'>20160920T181402,82+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20160920T181402,82+02</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20140924T183550,17+02</datetime></addedtofile></noteinfo>
+<noteinfo noteid='146a' unid='7AA4CA7C884FEA27C125803400448ECF' sequence='8'>
+<created><datetime dst='true'>20160920T142850,07+02</datetime></created>
+<modified><datetime dst='true'>20160920T181432,54+02</datetime></modified>
+<revised><datetime dst='true'>20160920T181432,53+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160920T181432,53+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20160920T142850,16+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name='$FormatNote' summary='true' sign='true'>
 <rawitemdata type='4'>
-AQATsAbQGanfeD+tLABqeiWA
+AQBh4zOTQ7t2UOkrWwBdfSXB
 </rawitemdata></item>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>Home Pages</text></item>
+<item name='$TITLE' sign='true'><text>Archive</text></item>
 <item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
-2AACABgABQBPcmRlcgAFAAUAT3JkZXIAAwACABgABQBUaXRsZQAFAAUAVGl0bGUAAwACABQABABC
+1AACABgABQBPcmRlcgAFAAUAT3JkZXIAAwACABgABQBUaXRsZQAFAAUAVGl0bGUAAwACABQABABC
 b2R5BQAEAEJvZHkDAAIADgACACQzkABWAQMABQAyAC0ABgAFAAUABAACAAkABABPcmRlclRpdGxl
-Qm9keSQzJENvbmZsaWN0JFJFRgAEAAQAAAA8AAUABABGb3JtAQAEAEhvbWUKAgQABAAFAAcAQXJj
-aGl2ZQABAAcAQVJDSElWRQAKAgQAHgEcAgMABwASAAwACUwxUzRTNVM4UzlT
+Qm9keSQzJENvbmZsaWN0JFJFRgAEAAQAAAA0AAUABABGb3JtAQAEAEhvbWUKAgUABwBBcmNoaXZl
+AAEABwBBUkNISVZFAAoCHAIDAAcAFgAQAAlMMVMyUzNTNFM1UzZTN1M=
 </formula></item>
 <item name='$Collation' summary='true'>
 <rawitemdata type='2'>
@@ -40,7 +40,7 @@ AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAEQAAAAEA////AAEA9/f3
 AAEA4eHhAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
 </rawitemdata></item>
 <item name='$Comment' sign='true'><text/></item>
-<item name='$Flags'><text>Y</text></item>
+<item name='$Flags'><text>PY</text></item>
 <item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$V5ACTIONS' sign='true'>
 <rawitemdata type='1'>
@@ -49,13 +49,13 @@ AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/yYAAAAFAAAAnQEAAAsAAAAAAAAAQ2F0ZWdvcmlfemUA
 AQBOfL7/KAAAAAUAAACdAQAADgAAAAAAAABfRWRpdCBEb2N1bWVudAIAAgq+/1IAAAABAB4AnwEA
-ABUAAAAAAAAATmV3IEhvbWUgUGFnZSBTZWN0aW9u3SYAAAAaAAIA6AMAAAAAAAABAAQASG9tZe0C
+ABUAAAAAAAAATmV3IEhvbWUgUGFnZSBTZWN0aW9uACYAAAAaAAIA6AMAAAAAAAABAAQASG9tZe0C
 AwAHAAoAAwAJNFMAXv8+AAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAACIAAAAgAAEAFQBOZXcgSG9t
 ZSBQYWdlIFNlY3Rpb24AAwC+/ygAAAAFAAAAnQEAAA4AAAAAAAAAX1NlbmQgRG9jdW1lbnQEAAMK
 vv8iAAAABQAAAJ0BAAAIAAAAAAAAAF9Gb3J3YXJkBQAECr7/LAAAAAUAAACdAQAAEgAAAAAAAABf
 TW92ZSBUbyBGb2xkZXIuLi4GAD18vv8uAAAABQAAAJ0BAAATAAAAAAAAAF9SZW1vdmUgRnJvbSBG
 b2xkZXIABwA+fL7/IAAAAAUAAACdAQAABQAAAAAAAABfUmVhZAAIAF58vv8iAAAABQAAAJ0BAAAH
-AAAAAAAAAF9VbnJlYWQACQBufL7/LgAAAAUAAACdAQAAEwAAAAAAAABfT3BlbiBpbiBOZXcgV2lu
+AAAAAAAAAF9VbnJlYWRTCQBufL7/LgAAAAUAAACdAQAAEwAAAAAAAABfT3BlbiBpbiBOZXcgV2lu
 ZG93AAoAfny+/yQAAAAFAAAAnQEAAAkAAAAAAAAAX1ByaW50Li4uAAsAjny+/yIAAAAFAAAAnQEA
 AAcAAAAAAAAAX0RlbGV0ZQAMAJ58vv8uAAAABQAAAJ0BAAAUAAAAAAAAAF9Eb2N1bWVudCBQcm9w
 ZXJ0aWVzDQCufL7/HgAAAAUAAACdAQAABAAAAAAAAABDX3V0DgC+fL7/IAAAAAUAAACdAQAABQAA

@@ -47,6 +47,7 @@ var TOPMENUITEMS = [
 	{"title": "Forum", "link": "http://" + facesContext.getExternalContext().getRequest().getServerName() + "/forum", "controlpanelconfig": "EnableForum"}, 
 	{"title": libraryMessage('sponsors'), "link": "/sponsors.xsp", "controlpanelconfig": null}, 
 	{"title": "FAQ", "link": "/faqs.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage('archive'), "link": "/archive.xsp", "controlpanelconfig": null},
 	{"title": libraryMessage('contactus'), "link": "/contact.xsp", "controlpanelconfig": null}
 ];
 
@@ -54,13 +55,14 @@ var TOPMENUITEMS = [
  * The top level menu items which will appear for authenticated users
  */
 var TOPMENUITEMSUSER = [
-	{"title": "Home", "link": "/home.xsp", "controlpanelconfig": null}, 
-	{"title": "Agenda", "link": "/agenda.xsp", "controlpanelconfig": "EnableAgenda"}, 
+	{"title": "Home", "link": "/home.xsp", "controlpanelconfig": null},
+	{"title": "Agenda", "link": "/agenda.xsp", "controlpanelconfig": "EnableAgenda"},
 	{"title": libraryMessage("sessions"), "link": "/sessions.xsp", "controlpanelconfig": null}, 
-	{"title": libraryMessage('speakers'), "link": "/speakers.xsp", "controlpanelconfig": null}, 
+	{"title": libraryMessage('speakers'), "link": "/speakers.xsp", "controlpanelconfig": null},
 	{"title": "Forum", "link": "http://" + facesContext.getExternalContext().getRequest().getServerName() + "/forum", "controlpanelconfig": "EnableForum"}, 
 	{"title": libraryMessage('sponsors'), "link": "/sponsors.xsp", "controlpanelconfig": null}, 
-	{"title": "FAQ", "link": "/faqs.xsp", "controlpanelconfig": null}, 
+	{"title": "FAQ", "link": "/faqs.xsp", "controlpanelconfig": null},
+	{"title": libraryMessage('archive'), "link": "/archive.xsp", "controlpanelconfig": null},
 	{"title": libraryMessage('contactus'), "link": "/contact.xsp", "controlpanelconfig": null}
 ];
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+
+	<xp:this.data>
+		<xp:dominoView
+			var="view1"
+			viewName="Archive">
+		</xp:dominoView>
+	</xp:this.data>
+	<xp:this.resources>
+		<xp:script src="/faqs.js" clientSide="true"></xp:script>
+	</xp:this.resources>
+
+	<div class="span3 bs-docs-sidebar nav hidden-phone">
+			
+			<xp:image themeId="LogoHomePage">
+					</xp:image>
+		
+		<br /><br />
+	
+		<ul class="nav-list bs-docs-sidenav affix">
+			<xp:repeat id="repeat1" rows="999" value="#{view1}" var="homepage"
+				indexVar="homepageindex" disableOutputTag="true">
+				<li>
+					<xp:panel id="homepage" tagName="a">
+						<xp:this.attrs>
+							<xp:attr name="href">
+								<xp:this.value><![CDATA[#{javascript:var text = homepage.getColumnValue("Title");
+var out = "<section id=\"" + @ReplaceSubstring(homepage.getColumnValue("Title"), ["'", " ", "?"], "") + "\">";
+out += "<div class=\"page-header\"><h1>" + homepage.getColumnValue("Title") + "</h1></div>";
+out += homepage.getColumnValue("Body");
+if (context.getUser().getRoles().contains("[Admin]")){
+	out += "<p><a href=\"homepage.xsp?action=openDocument&documentId=" + homepage.getColumnValue("UNID") + "\" class=\"btn\">Edit...</a></p>";
+}
+out += "</section>\n";
+if (viewScope.homehtml == null){
+	viewScope.homehtml = out;
+}else{
+	viewScope.homehtml = viewScope.homehtml + out;
+}
+return "#" + @ReplaceSubstring(text, ["'", " ", "?"], "");}]]></xp:this.value>
+							</xp:attr>
+						</xp:this.attrs>
+						<i class="icon-chevron-right"></i>
+						<xp:text value="#{homepage.Title}" id="titletext">
+						</xp:text>
+					</xp:panel>
+				</li>
+			</xp:repeat>
+		</ul>
+	</div>
+
+	<xp:text escape="false" id="contentholder" tagName="div">
+		<xp:this.value><![CDATA[#{javascript:var out = "<div id=\"content\" class=\"span6\">";
+if (context.getUser().getRoles().contains("[Admin]")){
+	out += "<div><a href=\"/" + @ReplaceSubstring(database.getFilePath(), "\\", "/") + "/homepage.xsp\" class=\"btn btn-primary btn-large\">New Section...</a></div>";
+}
+return out + viewScope.homehtml + "</div>";}]]></xp:this.value>
+	</xp:text>
+	
+	<div id="homeimages" class="span3 hidden-phone">
+		
+		<br /><br />
+		
+		<br /><br />
+		
+	</div>
+</xp:view>

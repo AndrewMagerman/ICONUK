@@ -60,9 +60,4 @@ if (level == "1"){
 			</xp:panel>
 		</xp:span>
 	</xp:repeat>
-	<p>
-		&#169; ICON UK 2014 | Site created by&#160;<a
-			href="http://londc.com"
-			target="newwin"> London Developer Co-op </a>
-	</p>
 </xp:view>

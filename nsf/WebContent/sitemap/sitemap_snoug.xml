@@ -1,0 +1,36 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/home.xsp</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/registration.xsp
+</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/agenda.xsp</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/sessions.xsp
+</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/speakers.xsp
+</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/sponsors.xsp
+</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/faqs.xsp</loc>
+	</url>
+	<url>
+		<loc>http://www.snoug.ch/SNOUG/webX-New.nsf/archive.xsp</loc>
+	</url>
+</urlset>
