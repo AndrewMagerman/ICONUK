@@ -26,7 +26,8 @@
 			<xp:text
 				escape="true"
 				id="computedField1"
-				tagName="p">
+				tagName="p"
+				style = "margin-bottom: 0px">
 				<xp:this.value><![CDATA[#{javascript:var level = sponsordoc.getColumnValue("Level");
 if (level == "1"){
 	return "Platinum";
@@ -40,7 +41,7 @@ if (level == "1"){
 			</xp:text>
 		</xp:panel>
 		<xp:span
-			style="padding: 3px;"
+			style="padding: 5px;"
 			rendered="#{javascript:!sponsordoc.isCategory();}">
 			<xp:panel
 				id="footerlink"
@@ -55,7 +56,7 @@ if (level == "1"){
 					url="#{javascript:getSponsorPhoto(sponsordoc.getDocument());}"
 					id="image1"
 					styleClass="img-rounded"
-					style="max-width: 100px;">
+					style="max-width: 120px; margin-bottom: 7px">
 				</xp:image>
 			</xp:panel>
 		</xp:span>
