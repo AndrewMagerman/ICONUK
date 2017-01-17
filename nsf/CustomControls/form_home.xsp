@@ -1,42 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
 	<xp:this.resources>
-		<xp:script src="/jquery.autogrow-textarea.js" clientSide="true">
+		<xp:script
+			src="/jquery.autogrow-textarea.js"
+			clientSide="true">
 		</xp:script>
 	</xp:this.resources>
 	<xp:this.data>
-		<xp:dominoDocument var="document1" formName="Home"
+		<xp:dominoDocument
+			var="document1"
+			formName="Home"
 			computeWithForm="both">
 		</xp:dominoDocument>
 	</xp:this.data>
 	<xp:this.acl>
 		<xp:acl>
 			<xp:this.entries>
-				<xp:aclEntry type="ANONYMOUS" right="NOACCESS" name="Anonymous"
+				<xp:aclEntry
+					type="ANONYMOUS"
+					right="NOACCESS"
+					name="Anonymous"
 					fullName="Anonymous">
 				</xp:aclEntry>
-				<xp:aclEntry type="DEFAULT" right="NOACCESS"></xp:aclEntry>
-				<xp:aclEntry type="ROLE" right="EDITOR">
+				<xp:aclEntry
+					type="DEFAULT"
+					right="NOACCESS"></xp:aclEntry>
+				<xp:aclEntry
+					type="ROLE"
+					right="EDITOR">
 					<xp:this.name><![CDATA[[Admin]]]></xp:this.name>
 					<xp:this.fullName><![CDATA[[Admin]]]></xp:this.fullName>
 				</xp:aclEntry>
 			</xp:this.entries>
 		</xp:acl>
 	</xp:this.acl>
-	<div class="row-fluid" style="padding-top: 10px;">
-		<div class="well">
-			<div style="float: right">
-				<xp:button value="Edit" id="button2" styleClass="btn btn-primary">
+	<div
+		class="row-fluid"
+		style="padding-top: 10px;">
+		<div
+			class="well">
+			<div
+				style="float: right">
+				<xp:button
+					value="Edit"
+					id="button2"
+					styleClass="btn btn-primary">
 					<xp:this.rendered><![CDATA[#{javascript:(context.getUser().getRoles().contains("[Admin]") || @UserName() == document1.getItemValueString("CreatedBy")) && !document1.isEditable()}]]></xp:this.rendered>
-					<xp:eventHandler event="onclick" submit="true"
-						refreshMode="complete">
-						<xp:this.action>
-							<xp:openPage name="/homepage.xsp" target="editDocument"
-								documentId="#{javascript:document1.getDocument().getUniversalID()}">
-							</xp:openPage>
-						</xp:this.action>
-					</xp:eventHandler>
-				</xp:button>
+					
+				<xp:eventHandler event="onclick" submit="true" refreshMode="complete">
+					<xp:this.action>
+						<xp:openPage
+							name="/homepage.xsp"
+							target="editDocument"
+							documentId="#{javascript:document1.getDocument().getUniversalID()}">
+						</xp:openPage>
+					</xp:this.action></xp:eventHandler></xp:button>
 				<xp:button value="Submit" id="button1" styleClass="btn btn-primary"
 					rendered="#{javascript:document1.isEditable()}">
 					<xp:eventHandler event="onclick" submit="true"
@@ -142,7 +161,14 @@
 							</xp:convertNumber>
 						</xp:this.converter>
 					</xp:inputText>
-				</div>
+					<xp:br></xp:br>
+					<xp:br></xp:br>
+					<xp:checkBox
+						text="Archive"
+						id="checkBox1"
+						value="#{document1.Archive}"
+						checkedValue="ARCHIVE">
+					</xp:checkBox></div>
 			</div>
 
 		</xp:panel>
