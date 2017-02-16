@@ -92,20 +92,7 @@
 						type="email">
 						<xp:this.validators>
 							<xp:validateRequired
-								message="Please enter your email address" />
-							<xp:validateExpression
-								message="That email address has already been registered. Please login to register for the event.">
-								<xp:this.expression><![CDATA[#{javascript:var db:NotesDatabase = sessionAsSigner.getDatabase(database.getServer(), controlpanelBean.getRegistrationNAB());
-var vwAll:NotesView = db.getView("($Users)");
-var person:NotesDocument = vwAll.getDocumentByKey(getComponent("inputEmail").getSubmittedValue());
-if (person != null){
-	person.recycle();
-	return false;
-}
-vwAll.recycle();
-db.recycle();
-return true;}]]></xp:this.expression>
-							</xp:validateExpression>
+								message="Please enter your email address" />							
 						</xp:this.validators>
 						<xp:this.attrs>
 							<xp:attr
