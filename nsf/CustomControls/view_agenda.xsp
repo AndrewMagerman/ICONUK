@@ -23,107 +23,110 @@
 			src="/xpAgenda.jss"
 			clientSide="false"></xp:script>
 	</xp:this.resources>
-	<div
-		class="navbar">
-		<div
-			class="navbar-inner">
-			<a
-				class="brand"
-				href="#">Agenda</a>
-			<ul
-				class="nav">
-				<xp:panel
-					tagName="li">
-					<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "" || context.getUrlParameter("filter") == "1"){
+	<xp:panel
+		loaded="true"
+		rendered="false">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a
+					class="brand"
+					href="#">
+					Agenda
+				</a>
+				<ul class="nav">
+					<xp:panel tagName="li">
+						<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "" || context.getUrlParameter("filter") == "1"){
 	return "active";
 }}]]></xp:this.styleClass>
-					<xp:link
-						escape="true"
-						text="Day 1"
-						id="day1"
-						value="/agenda.xsp">
-						<xp:this.parameters>
-							<xp:parameter
-								name="filter"
-								value="1"></xp:parameter>
-						</xp:this.parameters>
-					</xp:link>
-				</xp:panel>
-				<xp:panel
-					tagName="li">
-					<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "2"){
+						<xp:link
+							escape="true"
+							text="Day 1"
+							id="day1"
+							value="/agenda.xsp">
+							<xp:this.parameters>
+								<xp:parameter
+									name="filter"
+									value="1">
+								</xp:parameter>
+							</xp:this.parameters>
+						</xp:link>
+					</xp:panel>
+					<xp:panel tagName="li">
+						<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "2"){
 	return "active";
 }}]]></xp:this.styleClass>
-					<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 1}]]></xp:this.rendered>
-					<xp:link
-						escape="true"
-						text="Day 2"
-						id="link7"
-						value="/agenda.xsp">
-						<xp:this.parameters>
-							<xp:parameter
-								name="filter"
-								value="2"></xp:parameter>
-						</xp:this.parameters>
-					</xp:link>
-				</xp:panel>
-				<xp:panel
-					tagName="li">
-					<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "3"){
+						<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 1}]]></xp:this.rendered>
+						<xp:link
+							escape="true"
+							text="Day 2"
+							id="link7"
+							value="/agenda.xsp">
+							<xp:this.parameters>
+								<xp:parameter
+									name="filter"
+									value="2">
+								</xp:parameter>
+							</xp:this.parameters>
+						</xp:link>
+					</xp:panel>
+					<xp:panel tagName="li">
+						<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "3"){
 	return "active";
 }}]]></xp:this.styleClass>
-					<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 2}]]></xp:this.rendered>
-					<xp:link
-						escape="true"
-						text="Day 3"
-						id="link1"
-						value="/agenda.xsp">
-						<xp:this.parameters>
-							<xp:parameter
-								name="filter"
-								value="3"></xp:parameter>
-						</xp:this.parameters>
-					</xp:link>
-				</xp:panel>
-				<xp:panel
-					tagName="li">
-					<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "4"){
+						<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 2}]]></xp:this.rendered>
+						<xp:link
+							escape="true"
+							text="Day 3"
+							id="link1"
+							value="/agenda.xsp">
+							<xp:this.parameters>
+								<xp:parameter
+									name="filter"
+									value="3">
+								</xp:parameter>
+							</xp:this.parameters>
+						</xp:link>
+					</xp:panel>
+					<xp:panel tagName="li">
+						<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "4"){
 	return "active";
 }}]]></xp:this.styleClass>
-					<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 3}]]></xp:this.rendered>
-					<xp:link
-						escape="true"
-						text="Day 4"
-						id="link2"
-						value="/agenda.xsp">
-						<xp:this.parameters>
-							<xp:parameter
-								name="filter"
-								value="4"></xp:parameter>
-						</xp:this.parameters>
-					</xp:link>
-				</xp:panel>
-				<xp:panel
-					tagName="li">
-					<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "5"){
+						<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 3}]]></xp:this.rendered>
+						<xp:link
+							escape="true"
+							text="Day 4"
+							id="link2"
+							value="/agenda.xsp">
+							<xp:this.parameters>
+								<xp:parameter
+									name="filter"
+									value="4">
+								</xp:parameter>
+							</xp:this.parameters>
+						</xp:link>
+					</xp:panel>
+					<xp:panel tagName="li">
+						<xp:this.styleClass><![CDATA[#{javascript:if (context.getUrlParameter("filter") == "5"){
 	return "active";
 }}]]></xp:this.styleClass>
-					<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 4}]]></xp:this.rendered>
-					<xp:link
-						escape="true"
-						text="Day 5"
-						id="link3"
-						value="/agenda.xsp">
-						<xp:this.parameters>
-							<xp:parameter
-								name="filter"
-								value="5"></xp:parameter>
-						</xp:this.parameters>
-					</xp:link>
-				</xp:panel>
-			</ul>
+						<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaDays() > 4}]]></xp:this.rendered>
+						<xp:link
+							escape="true"
+							text="Day 5"
+							id="link3"
+							value="/agenda.xsp">
+							<xp:this.parameters>
+								<xp:parameter
+									name="filter"
+									value="5">
+								</xp:parameter>
+							</xp:this.parameters>
+						</xp:link>
+					</xp:panel>
+				</ul>
+			</div>
 		</div>
-	</div>
+	</xp:panel>
 	<xp:panel>
 		<xp:this.rendered><![CDATA[#{javascript:context.getUser().getRoles().contains("[Admin]")}]]></xp:this.rendered>
 		<a
@@ -136,9 +139,9 @@
 		id="icslink"
 		text="Add to calendar..."
 		value="/agendaics.xsp"
-		style="float: right;">
-		<i
-			class="icon-calendar"></i>
+		style="float: right;"
+		rendered="false">
+		<i class="icon-calendar"></i>
 	</xp:link>
 	<xp:div
 		styleClass="row-fluid">
