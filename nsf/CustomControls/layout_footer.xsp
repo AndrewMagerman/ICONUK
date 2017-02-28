@@ -56,7 +56,7 @@ if (level == "1"){
 					url="#{javascript:getSponsorPhoto(sponsordoc.getDocument());}"
 					id="image1"
 					styleClass="img-rounded"
-					style="max-width: 120px; margin-bottom: 7px">
+					style="max-width: 150px; margin-bottom: 15px">
 				</xp:image>
 			</xp:panel>
 		</xp:span>
