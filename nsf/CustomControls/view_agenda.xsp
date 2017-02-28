@@ -158,7 +158,7 @@
 						id="computedField1"
 						escape="false"
 						styleClass="span3">
-						<xp:this.value><![CDATA[#{javascript:libraryMessage('room')+" 1"}]]></xp:this.value>
+						<xp:this.value>Auditorium</xp:this.value>
 						<xp:this.attrs>
 							<xp:attr
 								name="onclick">
@@ -175,7 +175,7 @@ return "window.location.href='whatson.xsp?room=1&day=" + day + "';";}]]></xp:thi
 						id="computedField2"
 						escape="false"
 						styleClass="span4">
-						<xp:this.value><![CDATA[#{javascript:libraryMessage('room')+" 2"}]]></xp:this.value>
+						<xp:this.value>Centennial</xp:this.value>
 						<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaRooms() > 1}]]></xp:this.rendered>
 						<xp:this.attrs>
 							<xp:attr
@@ -194,7 +194,7 @@ return "window.location.href='whatson.xsp?room=2&day=" + day + "';";}]]></xp:thi
 						escape="false"
 						styleClass="span4">
 						<xp:this.rendered><![CDATA[#{javascript:controlpanelBean.getAgendaRooms() > 2}]]></xp:this.rendered>
-						<xp:this.value><![CDATA[#{javascript:libraryMessage('room')+" 3"}]]></xp:this.value>
+						<xp:this.value>Nano</xp:this.value>
 						<xp:this.attrs>
 							<xp:attr
 								name="onclick">
