@@ -80,7 +80,10 @@
 				</xp:pager>
 			</xp:this.facets>
 			<xp:this.data>
-				<xp:dominoView var="view1" viewName="Attendees"></xp:dominoView>
+				<xp:dominoView
+					var="view1"
+					viewName="Attendees\Event 2017">
+				</xp:dominoView>
 			</xp:this.data>
 			<xp:viewColumn columnName="LastName" id="viewColumn1"
 				showCheckbox="true">

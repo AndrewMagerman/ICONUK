@@ -1,0 +1,7 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+%INCLUDE "S:\xlinterface.lss"  
+REM "This software is copyrighted Magerman GmbH and will only work in databases with a valid Magerman GmbH License. The functionalities will work on local replicas irrespective of the license presence"
+'++LotusScript Development Environment:2:5:(Forward):0:1
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+

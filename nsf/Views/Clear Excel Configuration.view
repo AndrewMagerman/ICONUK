@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C1257D5D005B22E4'>
+<noteinfo noteid='1546' unid='C9E5E2AEA688EC67C12580EA003DCAB8' sequence='1'>
+<created><datetime>20170321T121455,92+01</datetime></created>
+<modified><datetime>20170321T121457,59+01</datetime></modified>
+<revised><datetime>20170321T121457,58+01</datetime></revised>
+<lastaccessed><datetime>20170321T121457,58+01</datetime></lastaccessed>
+<addedtofile><datetime>20170321T121457,58+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew MAGERMAN/OU=CH/OU=ITC/O=non-ALSTOM</name><name
+>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>Clear Excel Configuration</text></item>
+<item name='$Index' sign='true'><text>/M</text></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+lgACADQAEwBSZXBvcnREZXNjcmlwdGlvblRYAAUAEwBSZXBvcnREZXNjcmlwdGlvblRYAAMABQAu
+ACoAAwATAAkABABSZXBvcnREZXNjcmlwdGlvblRYJENvbmZsaWN0JFJFRgQABAAAACAABQAEAEZv
+cm0BAAsARXhjZWxDb25maWcACgIDAAcADgAIAAlMMVMyUzNT
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+IAABAABECGYAAAATAFJlcG9ydERlc2NyaXB0aW9uVFg=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACUAAAFZDAQATAA4ANgAAALAAAQEKCAABAAAAAAAAAAICAAAAUmVwb3J0RGVzY3JpcHRp
+b25UWFJlcG9ydCBTb3J0aW5nNgACADQAEwBSZXBvcnREZXNjcmlwdGlvblRYAAUAEwBSZXBvcnRE
+ZXNjcmlwdGlvblRYAAMAJgABAAAAAQEACQEAAAoBAQ4KAAABAK0rAQABAAEAAAAAAAAAAABXQwEB
+AAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAD//wAAAAAAAAAAAAAAAAAAQgAQAAAAAQD///8ABQD/
+//8AAQAAAAAAAAAAAAAAAAABAP///wABAP///wAAAAEAAAAAAAEAgICAAAEAAAAAAAAACAAAAAAA
+AQA=
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text>View for the configuration of Export Profiles</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwBAAAAAQABAAAAQREAAAAAAAAFAAAICAACAL7/agAAAAEAHgCeAQAAJAAAAAAAAABDcmVhdGUg
+TmV3IFhMIENvbmZpZ3VyYXRpb24gRG9jdW1lbnQwAAAAIgACAOgDAAAAAAAAAQALAEV4Y2VsQ29u
+ZmlnAO0CAwAHAAwABQAJMFMwRQA=
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+i/8oAAEABSZWZXJkYW5hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0cAQAAAAEAAQAAAEERAAAA
+AAAABQAACAgAAgB5/2wAAQD///8AAQAAAAAAAQAAAAAAAQD///8AAwAfAAAAAQAAAAAAAwAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD8/zoAAAAAAAEAAQABAAIAAQAAAAAAAAAEAAAABAAAAAQAAAAAAAAAAAABAOHh4QAAAAAA
+AAAAAAAAvv9qAAAAAQAeAJ4BAAAkAAAAAAAAAENyZWF0ZSBOZXcgWEwgQ29uZmlndXJhdGlvbiBE
+b2N1bWVudDAAAAAiAAIA6AMAAAAAAAABAAsARXhjZWxDb25maWcA7QIDAAcADAAFAAkwUzBFAA==
+</rawitemdata></item>
+<item name='$Flags'><text>YP</text></item></note>
+
