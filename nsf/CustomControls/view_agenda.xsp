@@ -301,8 +301,7 @@ getSessionDetails(timeslot.getColumnValue("Session4")) == ""}]]></xp:this.render
 						<xp:text
 							tagName="td"
 							id="session1"
-							escape="false"
-							contentType="html">
+							escape="false">
 							<xp:this.value><![CDATA[#{javascript:getSessionDetails(timeslot.getColumnValue("Session1"));}]]></xp:this.value>
 							<xp:this.rendered><![CDATA[#{javascript: 
 (getSessionDetails(timeslot.getColumnValue("Session1")) != "" ||
