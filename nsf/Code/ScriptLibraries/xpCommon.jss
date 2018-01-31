@@ -40,7 +40,7 @@ function hello(){
  */
 var TOPMENUITEMS = [
 	{"title": "Home", "link": "/home.xsp", "controlpanelconfig": null}, 
-	{"title": libraryMessage('registration'), "link": "/registration.xsp", "controlpanelconfig": "EnableRegistration"}, 
+	{"title": libraryMessage('registration'), "link": "https://snoug2018.eventbrite.com", "controlpanelconfig": null}, 
 	{"title": "Agenda", "link": "/agenda.xsp", "controlpanelconfig": "EnableAgenda"}, 
 	{"title": libraryMessage("sessions"), "link": "/sessions.xsp", "controlpanelconfig": null}, 
 	{"title": libraryMessage('speakers'), "link": "/speakers.xsp", "controlpanelconfig": null}, 

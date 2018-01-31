@@ -10,12 +10,13 @@
 	</xp:this.resources>
 
 	<div class="span3 bs-docs-sidebar nav hidden-phone">
-			
-			<xp:image themeId="LogoHomePage">
-					</xp:image>
-		
-		<br /><br />
-	
+
+		<xp:image themeId="LogoHomePage">
+		</xp:image>
+
+		<br />
+		<br />
+
 		<ul class="nav-list bs-docs-sidenav affix">
 			<xp:repeat id="repeat1" rows="999" value="#{view1}" var="homepage"
 				indexVar="homepageindex" disableOutputTag="true">
@@ -55,12 +56,14 @@ if (context.getUser().getRoles().contains("[Admin]")){
 }
 return out + viewScope.homehtml + "</div>";}]]></xp:this.value>
 	</xp:text>
-	
+
 	<div id="homeimages" class="span3 hidden-phone">
-		
-		<br /><br />
-		
-		<br /><br />
-		
+
+		<br />
+		<br />
+
+		<br />
+		<br />
+
 	</div>
 </xp:view>
