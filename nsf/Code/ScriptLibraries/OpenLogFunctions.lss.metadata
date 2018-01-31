@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.1" replicaid="C1257D5D005B22E4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1582" sequence="2" unid="ACBEC4AD408BF701C125822600367C26">
+<created><datetime>20180131T105507,26+01</datetime></created>
+<modified><datetime>20180131T105546,16+01</datetime></modified>
+<revised><datetime>20180131T105546,15+01</datetime></revised>
+<lastaccessed><datetime>20180131T105546,15+01</datetime></lastaccessed>
+<addedtofile><datetime>20180131T105511,23+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Julian Robichaux/O=nsftools</name><name>CN=Andrew MAGERMAN/OU=CH/OU=ITC/O=non-ALSTOM</name><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew MAGERMAN/OU=CH/OU=ITSSC/O=non-ALSTOM</name><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Notes Administrator2/OU=Informatik/O=Justizdirektion</name><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name="$TITLE" sign="true"><text>OpenLogFunctions</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$Flags"><text>s34Q</text></item>
+<item name="$POID"><datetime>20130204T143122,52+01</datetime></item>
+
+</note>

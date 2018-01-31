@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
  replicaid='C1257D5D005B22E4'>
-<noteinfo noteid='152e' unid='3F4AB6AC542096E4C12580E4003255BC' sequence='16'>
-<created><datetime>20170315T100947,48+01</datetime></created>
-<modified><datetime>20170321T133008,71+01</datetime></modified>
-<revised><datetime>20170321T133008,70+01</datetime></revised>
-<lastaccessed><datetime>20170321T133008,70+01</datetime></lastaccessed>
-<addedtofile><datetime>20170315T100948,78+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid='1576' unid='33E2072351AEE0CCC12580EA0044F101' sequence='3'>
+<created><datetime>20170321T133301,45+01</datetime></created>
+<modified><datetime>20170321T133322,63+01</datetime></modified>
+<revised><datetime>20170321T133322,62+01</datetime></revised>
+<lastaccessed><datetime>20170321T133322,62+01</datetime></lastaccessed>
+<addedtofile><datetime>20170321T133306,09+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
 <wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
 <item name='$FormatNote' summary='true' sign='true'>
@@ -18,7 +18,6 @@ AQBhukiafKvCWOfQTACZeiWA
 <item name='$CIAOCheckOutTime' sign='true'><datetime dst='true'>20140630T172409,61+01</datetime></item>
 <item name='$CIAOCheckOutComment' sign='true'><text>added sorting the company column</text></item>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>Attendees by Type\Event 2017</text></item>
 <item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
 igECABQAAgAkNwAAAAAAAAAA8D8DAAIASAADACQxMAAFAAYAZGlubmVyAQAIAGFjY2VwdGVkCgKv
@@ -78,7 +77,6 @@ FAABAABEgWYAAAAHAENvbXBhbnk=
 >0</text><text>0</text></textlist></item>
 <item name='$Comment' sign='true'><text/></item>
 <item name='$Flags'><text>PY</text></item>
-<item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
 gQYAAAAAif8UAAAAAAABAAgAQXR0ZW5kZWWC/zMAIAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -137,5 +135,7 @@ BQAAAJ0BAAAEAAAAAAAAAENfdXQOAL58vv8gAAAABQAAAJ0BAAAFAAAAAAAAAF9Db3B5AA8Azny+
 nQEAAA4AAAAAAAAAQ29weSBhcyBfVGFibGURAO58vv8gAAAABQAAAJ0BAAAGAAAAAAAAAFBfYXN0
 ZRIA/ny+/yAAAAAFAAAAnQEAAAUAAAAAAAAAX09wZW4AEwAOfb7/IgAAAAUAAACdAQAACAAAAAAA
 AABCb29rbWFyaxQAHn0=
-</rawitemdata></item></note>
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><text>Attendees by Type v2\Event 2017</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
 
